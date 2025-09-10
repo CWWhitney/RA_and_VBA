@@ -3,7 +3,7 @@ library(tidyverse)
 library(ggrepel) # For better labels if needed
 
 # 1. READ THE DATA
-syn_data <- read_csv("kenya_ra_adoption_synthetic_data.csv")
+syn_data <- read_csv("data/kenya_ra_adoption_synthetic_data.csv")
 syn_data$group <- factor(syn_data$group, levels = c("Control", "RA Farmer")) # Set factor order
 
 # 2. PLOT 1: Adoption Rates for Key Practices
