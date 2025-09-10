@@ -73,6 +73,7 @@ summary(model) # Check the coefficient is ~0.07
 # Create a prediction dataframe for a smooth line
 prediction_data <- data.frame(number_of_practices = seq(0, 4, by = 0.1))
 preds <- predict(model, newdata = prediction_data, se.fit = TRUE)
+# generate predictions from the lm model
 prediction_data$yield <- preds$fit
 prediction_data$ymin <- preds$fit - 1.96 * preds$se.fit
 prediction_data$ymax <- preds$fit + 1.96 * preds$se.fit
