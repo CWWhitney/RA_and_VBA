@@ -2,6 +2,8 @@
 library(tidyverse)
 set.seed(42) # For reproducibility
 
+# preliminary data from papers (waiting for field data)
+
 # Define the sample size
 n_control <- 851
 n_ra <- 1081
