@@ -1,0 +1,61 @@
+---
+title: "Bridging the Evidence Gap in Regenerative Agriculture"
+output:
+  html_document:
+    selfcontained: true
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+knitr::opts_chunk$set(echo = TRUE,
+               out.width = "75%", 
+               fig.align = "center", 
+               warning = FALSE, 
+               message = FALSE) 
+
+library(akima)
+library(decisionSupport)
+library(ggstance)
+library(gtExtras)
+library(patchwork)
+library(plotly)
+library(rPref)
+library(svglite)
+library(tidyverse)
+
+```
+
+We model a decision impact pathway of  RA VBA  (Whitney et al. 2025). 
+
+
+![](figures/dag.jpg)
+
+**Conceptual model of RA VBA**
+
+# Urban Hanoi school garden 
+
+Simulation of  RA VBA:
+
+```{r mcsimulation, warning=FALSE, message=FALSE}
+# Source our model
+source("vba_model_kenya.R")
+
+```
+
+The Net Present Value (i.e. current value of the future benefits) of the garden decision options over `r simulation_results$x$number_of_years[1]` years of the intervention. For public and private schools the STEM costs are considered to be in the same garden space but with the additional costs and benefits of a full STEM education program. All options are compared to the same years of using the land for something that is not related to the garden, i.e. as a playground or for parking. Here we plot the distribution for the decision and frame the projected NPV. 
+
+For public schools:
+
+```{r plot_dist_public, warning=FALSE, message=FALSE}
+source("functions/plot_distributions.R")
+plot_distributions(mcSimulation_object = simulation_results, 
+                                    vars = "NPV_Comparative",
+                   old_names = "NPV_Comparative",
+                   new_names = "Gains compared to the baseline",
+                                    method = 'smooth_simple_overlay', 
+                                    base_size = 7, 
+                                    x_axis_name = "Comparative NPV outcomes")
+```
+
+
+
