@@ -32,6 +32,45 @@ We model a decision impact pathway of  RA VBA  (Whitney et al. 2025).
 
 **Conceptual model of RA VBA**
 
+```{r update_data, include=FALSE}
+
+# data <- read.csv("data/inputs_vba_kenya.csv") #original estimates
+# # field data
+data_5 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod5.csv")
+data_4 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod4.csv")
+data_3 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
+data_2 <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
+# 
+# # Update baseline_adoption from data_3 (Adoption WITHOUT VBA)
+# data$lower[data$variable == "baseline_adoption"] <- round(quantile(as.numeric(data_3$`Adoption WITHOUT VBA (%)`), 0.1, na.rm = TRUE)/100, 2)
+# data$upper[data$variable == "baseline_adoption"] <- round(quantile(as.numeric(data_3$`Adoption WITHOUT VBA (%)`), 0.9, na.rm = TRUE)/100, 2)
+# 
+# # Update vba_effectiveness from data_3 (difference between with/without VBA)
+# vba_effect <- (data_3$`Adoption WITH VBA Support (%)` - as.numeric(data_3$`Adoption WITHOUT VBA (%)`))/100
+# data$lower[data$variable == "vba_effectiveness"] <- round(quantile(vba_effect, 0.1, na.rm = TRUE), 2)
+# data$upper[data$variable == "vba_effectiveness"] <- round(quantile(vba_effect, 0.9, na.rm = TRUE), 2)
+# 
+# # Update base_yield from data_4
+# data$lower[data$variable == "base_yield"] <- round(quantile(as.numeric(data_4$`Baseline (bags/ac)`), 0.1, na.rm = TRUE) * 0.025, 1)
+# data$upper[data$variable == "base_yield"] <- round(quantile(as.numeric(data_4$`Baseline (bags/ac)`), 0.9, na.rm = TRUE) * 0.025, 1)
+# 
+# # Update ra_adoption_cost from data_5 (labor + inputs)
+# total_cost <- data_5$`Total  Labour Cost (KSh)` + data_5$`Total  Inputs Cost (KSh)`
+# data$lower[data$variable == "ra_adoption_cost"] <- round(quantile(total_cost, 0.1, na.rm = TRUE), 0)
+# data$upper[data$variable == "ra_adoption_cost"] <- round(quantile(total_cost, 0.9, na.rm = TRUE), 0)
+# 
+# # Update yield_impact_ra from data_4 (yield improvement)
+# yield_improvement <- (as.numeric(data_4$`Highest Yield in bags/ac`) - as.numeric(data_4$`Baseline (bags/ac)`)) / as.numeric(data_4$`Baseline (bags/ac)`)
+# data$lower[data$variable == "yield_impact_ra"] <- round(quantile(yield_improvement, 0.1, na.rm = TRUE), 2)
+# data$upper[data$variable == "yield_impact_ra"] <- round(quantile(yield_improvement, 0.9, na.rm = TRUE), 2)
+# 
+# write.csv(data, "data/updated_inputs_vba_kenya.csv", row.names = FALSE)
+
+# Run above and then
+# Perform manual adjustment - no negative values for t_norm and posnorm
+
+```
+
 # Simulation of  RA VBA:
 
 ```{r mcsimulation, warning=FALSE, message=FALSE}
@@ -44,7 +83,7 @@ set.seed(42)  # For reproducible results
 # Run the simulation 10,000 times
 
 simulation_results <- mcSimulation(
-  estimate = estimate_read_csv("data/inputs_vba_kenya.csv"),
+  estimate = estimate_read_csv("data/updated_inputs_vba_kenya.csv"),
   model_function = vba_causal_effect,
   numberOfModelRuns = 1e4, #run 10,000 times
   functionSyntax = "plainNames"
@@ -74,24 +113,19 @@ The adoption and yield impacts of the Intervention show a final RA Adoption - in
 FGDs were conducted in 4 counties (Kitui, Makueni, Embu, Tharaka Nithi) with 20 individuals (5 Kitui, 3 Makueni, 9 Embu, 4 Tharaka Nithi)
 
 ```{r, results='asis'}
- data_2 <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
 knitr::kable(summary(data_2[c(5,6,8)]))
 ```
 
 
 ```{r, results='asis'}
- data_3 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
 knitr::kable(summary(data_3[6:11]))
 ```
 
 ```{r, results='asis'}
- data_4 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod4.csv")
 knitr::kable(summary(data_4[c(7,8,15,16)]))
 ```
 
 ```{r, results = "asis"}
-
- data_5 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod5.csv")
 knitr::kable(summary(data_5[c(10,15,19)]))
 ```
 

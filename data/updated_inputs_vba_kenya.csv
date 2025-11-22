@@ -1,0 +1,19 @@
+variable,lower,upper,distribution,label
+vba_density,0.5,4,posnorm,VBA density (advisors per 100 farms) - TREATMENT
+vba_training_quality,0.6,0.95,tnorm_0_1,Quality of VBA training (score 0-1)
+farmer_trust_start,0.4,0.8,tnorm_0_1,Initial farmer trust in advice (score 0-1)
+baseline_adoption,0.15,0.74,tnorm_0_1,Baseline RA adoption (no VBA) - CONTROL
+vba_effectiveness,0.1,0.5,tnorm_0_1,VBA effectiveness multiplier
+yield_impact_ra,0.1,2.75,posnorm,Yield gain from full RA adoption (tons/ha)
+yield_variability,0.1,0.3,posnorm,Annual yield variability (SD in tons/ha)
+base_yield,0.1,0.3,posnorm,Base yield (tons/ha) - conventional practice
+vba_program_cost,300,800,posnorm,Annual VBA program cost per farmer (KES)
+ra_adoption_cost,800,20400,posnorm,One-time RA adoption cost per farmer (KES)
+maize_price,18000,22000,posnorm,Maize price (KES/tonne)
+discount_rate,0.03,0.08,posnorm,Discount rate for NPV calculation
+field_adoption_with_vba,55,71, posnorm,Field adpotion with VBA
+field_adoption_without_vba,25,35, posnorm,Discount rate for NPV calculation 
+practice_difficulty,2,2.8, posnorm,Practice difficulty
+labor_cost,3000,6000, posnorm,Labor cost
+input_cost,3000,5500, posnorm,Input cost
+time_to_benefit,2,4, posnorm,Time to benefit

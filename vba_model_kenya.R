@@ -7,14 +7,14 @@ source("functions/chance_event.R") # For risk events
 source("functions/discount.R")  # For NPV calculations
 source("functions/make_variables.R")  # For testing model steps
 
-# ---- 1. READ INPUT ESTIMATES ----
-inputs <- estimate_read_csv("data/inputs_vba_kenya.csv")
+# READ INPUT ESTIMATES ----
+inputs <- estimate_read_csv("data/updated_inputs_vba_kenya.csv")
 make_variables(decisionSupport::estimate_read_csv(paste("data/inputs_vba_kenya.csv",sep="")))
 
 # VBA_Causal_Model.R
 # A simplified model to estimate the causal effect of VBAs on RA adoption and yield
 
-# ---- 2. DEFINE THE CAUSAL MODEL FUNCTION ----
+# DEFINE THE CAUSAL MODEL FUNCTION ----
 vba_causal_effect <- function() {
   
   n_years <- 25
@@ -64,7 +64,7 @@ vba_causal_effect <- function() {
   control_revenue <- yield_control * maize_price
   control_net_benefit <- control_revenue - control_costs
   
-  # --- TREATMENT GROUP (with VBA) ---
+# TREATMENT GROUP (with VBA) ---
   vba_effect <- vba_density * 
     vba_effectiveness * 
     vba_training_quality * 
