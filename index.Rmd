@@ -32,9 +32,7 @@ We model a decision impact pathway of  RA VBA  (Whitney et al. 2025).
 
 **Conceptual model of RA VBA**
 
-# Urban Hanoi school garden 
-
-Simulation of  RA VBA:
+# Simulation of  RA VBA:
 
 ```{r mcsimulation, warning=FALSE, message=FALSE}
 # Source our model
@@ -71,3 +69,54 @@ The comparative results of the NPV (VBA vs Baseline) show a mean Additional NPV 
 
 The adoption and yield impacts of the Intervention show a final RA Adoption - in the baseline `r round(mean(simulation_results$y[, "Final_Adoption_Baseline"]), 1)`%. The final RA Adoption with VBA was `r round(mean(simulation_results$y[, "Final_Adoption_VBA"]), 1)`%. The Average Yield Increase `r round(mean(simulation_results$y[, "Yield_Increase"]), 2)` tons/ha/year.
 
+## Data from the field
+
+FGDs were conducted in 4 counties (Kitui, Makueni, Embu, Tharaka Nithi) with 20 individuals (5 Kitui, 3 Makueni, 9 Embu, 4 Tharaka Nithi)
+
+```{r, results='asis'}
+ data_2 <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
+knitr::kable(summary(data_2[c(5,6,8)]))
+```
+
+
+```{r, results='asis'}
+ data_3 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
+knitr::kable(summary(data_3[6:11]))
+```
+
+```{r, results='asis'}
+ data_4 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod4.csv")
+knitr::kable(summary(data_4[c(7,8,15,16)]))
+```
+
+```{r, results = "asis"}
+
+ data_5 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod5.csv")
+knitr::kable(summary(data_5[c(10,15,19)]))
+```
+
+## Field Data Validation
+
+```{r}
+data_3$`Adoption WITHOUT VBA (%)` <- as.numeric(data_3$`Adoption WITHOUT VBA (%)`)
+field_stats <- data_3 %>% 
+  summarise(
+    avg_adoption_vba = mean(`Adoption WITH VBA Support (%)`, na.rm = TRUE),
+    avg_adoption_no_vba = mean(`Adoption WITHOUT VBA (%)`, na.rm = TRUE),
+    vba_impact = avg_adoption_vba - avg_adoption_no_vba,
+    avg_difficulty = mean(`Difficulty (1–5)`, na.rm = TRUE),
+    avg_benefit_months = mean(`Time to Benefit (months)`, na.rm = TRUE)
+  )
+```
+
+VBA Impact: `r round(field_stats$vba_impact, 1)` % points
+Average Difficulty `r round(field_stats$avg_difficulty, 1)` /5
+Time to Benefit `r round(field_stats$avg_benefit_months, 1)` months
+
+## Adoption Patterns of Regenerative Agriculture Practices
+
+![Adoption rates of key regenerative agriculture practices with and without VBA support. Error bars represent standard error of the mean.](figures/plot1_adoption_rates.png)
+
+![Distribution of practice adoption intensity, showing the number of regenerative practices adopted per farmer with and without VBA support.](figures/plot2_adoption_intensity.png)
+
+![Relationship between the number of regenerative practices adopted and maize yield in tons per hectare, with linear trend line. Modelled yield response to practice adoption, showing predicted yields with 95% confidence intervals based on linear regression.](figures/plot4_modelled_effect.png)
