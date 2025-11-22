@@ -1,0 +1,363 @@
+﻿County ,Farmer No.,Type.of.Respondent,Type  of Crop,RA Practice / Activity,Type of Unit ,Num.of .Units,Num.of .Days ,Cost,Total  Labour Cost (KSh),Input Type,Type of Unit-inputs,No.of. Units-inputs,Unit Cost (KSh)-inputs,Total  Inputs Cost (KSh),Benefit Type,Type of Unit-inputs,No.of. Units-Benefits ,Unit Value (KSh),Total Value (KSh)
+Embu,1,Farmer,Maize,Ripping,No. of Persons,4,2,400,3200,Improved seeds,Packet-2kg,2,2000,4000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,2,8000,16000
+Embu,1,Farmer,Maize,Planting basins,No. of Persons,2,1,400,800,Fertilizer (microdose),Bags-90Kg,0.56,2500,1400,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,2500,2500
+Embu,1,Farmer,Maize,Manure application,No. of Persons,2,1,400,800,Manure (if purchased),Bags-90Kg,0,0,0,"Tree or crop by-products (fodder, fuelwood, etc.)",Packet-2kg,,0,0
+Embu,1,Farmer,Maize,Mulching,No. of Persons,1,1,400,400,Mulching materials,Wheelbarrow-25kg ,0,0,0,Other benefits (specify),Number ,,0,0
+Embu,1,Farmer,Maize,Microdosing,No. of Persons,2,1,400,800,Tree seedlings,Number ,0,0,0,,,,0,0
+Embu,1,Farmer,Maize,Agroforestry,No. of Persons,3,2,400,2400,,,,,0,,,,,0
+Embu,1,Farmer,Maize,Intercropping,No. of Persons,2,1,400,800,,,,,0,,,,,0
+Embu,1,Farmer,Maize,Crop rotation,No. of Persons,2,1,400,800,,,,,0,,,,,0
+Embu,2,Farmer,Maize,Mulching,No. of Persons,4,6,500,12000,Improved seeds,Bags-90Kg,5,4750,23750,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,2400,14400
+Embu,2,Farmer,Maize,Microdosing,No. of Persons,4,1,500,2000,Fertilizer (microdose),Bags-90Kg,1.1,5000,5500,,,,,0
+Embu,2,Farmer,Maize,,,,,,0,Mulching materials,canter-50kg ,1,1000,1000,,,,,0
+Embu,3,VBA,Maize,Planting basins,No. of Persons,1,1,400,400,Improved seeds,Packet-2kg,2,850,1700,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,,2552,0
+Embu,3,VBA,Maize,Manure application,No. of Persons,2,2,350,1400,Fertilizer (microdose),Bags-90Kg,1.1,2850,3135,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.2,1032.0,229.3333333
+Embu,3,VBA,Maize,Mulching,No. of Persons,1,1,350,350,,,,,0,Other benefits (specify),canter-50kg ,2,1000,2000
+Embu,3,VBA,Maize,Microdosing,No. of Persons,2,2,350,1400,,,,,0,,,,0,0
+Embu,3,VBA,Maize,Agroforestry,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Embu,4,Farmer,Beans,Ripping,No. of Persons,2,3,400,2400,Improved seeds,Packet-2kg,3,900,2700,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,5,12000,60000
+Embu,4,Farmer,Beans,Planting basins,No. of Persons,2,3,400,2400,Fertilizer (microdose),Bags-90Kg,0.1,1200.0,133.3,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,1200,1200
+Embu,4,Farmer,Beans,Mulching,No. of Persons,2,3,400,2400,,,,,0,"Tree or crop by-products (fodder, fuelwood, etc.)",canter-50kg ,4,1000,4000
+Embu,5,Farmer,Beans,Microdosing,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Embu,5,Farmer,Beans,Agroforestry,No. of Persons,1,1,400,400,,,,,0,,,,0,0
+Embu,5,Farmer,Beans,Intercropping,No. of Persons,2,3,400,2400,,,,,0,,,,0,0
+Embu,5,Farmer,Beans,Crop rotation,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Embu,6,Farmer,Maize,Manure application,No. of Persons,4,1,500,2000,Improved seeds,Packet-2Kg,4,800,3200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,0.4,3000,1200
+Embu,6,Farmer,Maize,Mulching,No. of Persons,3,2,500,3000,Fertilizer (microdose),Bags-90Kg,0.1,5000,500,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,5000,5000
+Embu,6,Farmer,Maize,Microdosing,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,6,Farmer,Maize,Intercropping,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,6,Farmer,Maize,Crop rotation,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,7,Farmer,Beans,Ripping,No. of Persons,2,1,500,1000,Improved seeds,Packet-2Kg,8,600,4800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1,16000,16000
+Embu,7,Farmer,Beans,Planting basins,No. of Persons,3,3,500,4500,Fertilizer (microdose),Bags-90Kg,0.2,2250,450,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1,10000,10000
+Embu,7,Farmer,Beans,Manure application,No. of Persons,1,2,500,1000,Manure (if purchased),,,,,,,,0,0
+Embu,7,Farmer,Beans,Mulching,No. of Persons,3,2,500,3000,Mulching materials,,,,0,,,,0,0
+Embu,7,Farmer,Beans,Microdosing,No. of Persons,1,1,500,500,Tree seedlings,,200,10,2000,,,,2210,0
+Embu,8,Farmer,Beans,Agroforestry,No. of Persons,5,3,500,7500,,,,,0,,,,0,0
+Embu,8,Farmer,Beans,Intercropping,No. of Persons,2,1,500,1000,,,,,0,,,,0,0
+Embu,8,Farmer,Beans,Ripping,No. of Persons,5,12,600,36000,Improved seeds,Packet-2Kg,4,900,3600,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,5,10000,50000
+Embu,8,Farmer,Beans,Planting basins,No. of Persons,4,18,600,43200,Fertilizer (microdose),Bags-90Kg,1,25.8,25.8,,,,52.6,0
+Embu,8,Farmer,Beans,Manure application,No. of Persons,10,6,500,30000,,,,,0,,,,0,0
+Embu,9,Farmer,Beans,Mulching,No. of Persons,10,6,500,30000,,,,,0,,,,0,0
+Embu,9,Farmer,Beans,Microdosing,No. of Persons,4,12,500,24000,,,,,0,,,,0,0
+Embu,9,Farmer,Beans,Agroforestry,No. of Persons,10,18,500,90000,,,,,0,,,,0,0
+Embu,9,Farmer,Beans,Intercropping,No. of Persons,10,18,500,90000,,,,,0,,,,0,0
+Embu,9,Farmer,Beans,Crop rotation,No. of Persons,10,18,500,90000,,,,,0,,,,0,0
+Embu,10,Farmer,maize,Ripping,No. of Persons,4,6,600,14400,Improved seeds,Packet-2Kg,4,900,3600,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,10,4000,40000
+Embu,10,Farmer,maize,Planting basins,No. of Persons,5,6,400,12000,Fertilizer (microdose),Bags-90Kg,1,2500,2500,,,,0,0
+Embu,10,Farmer,maize,Manure application,No. of Persons,5,3,400,6000,,,,,0,,,,0,0
+Embu,10,Farmer,maize,Mulching,No. of Persons,6,3,400,7200,,,,,0,,,,0,0
+Embu,10,Farmer,maize,Microdosing,No. of Persons,4,5,400,8000,,,,,0,,,,0,0
+Embu,10,Farmer,maize,Agroforestry,No. of Persons,3,4,400,4800,,,,,0,,,,0,0
+Embu,10,Farmer,maize,Intercropping,No. of Persons,6,8,400,19200,,,,,0,,,,0,0
+Embu,10,Farmer,maize,Crop rotation,No. of Persons,5,6,600,18000,,,,,0,,,,0,0
+Embu,11,VBA,Beans,Ripping,No. of Persons,5,1,500,2500,Improved seeds,Packet-2Kg,6,600,3600,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,7,1200,8400
+Embu,11,VBA,Beans,Manure application,No. of Persons,3,1,500,1500,Fertilizer (microdose),Bags-90Kg,0.2,1500,300,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,,,0
+Embu,11,VBA,Beans,Mulching,No. of Persons,5,1,500,2500,,,,,0,,,,0,0
+Embu,11,VBA,Beans,Microdosing,No. of Persons,1,1,500,500,,,,,0,,,,0,0
+Embu,11,VBA,Beans,Intercropping,No. of Persons,5,1,500,2500,,,,,0,,,,0,0
+Embu,11,VBA,Beans,Crop rotation,No. of Persons,5,1,500,2500,,,,,0,,,,0,0
+Embu,12,Farmer,Beans,Manure application,No. of Persons,4,1,500,2000,Improved seeds,Packet-2Kg,4,800,3200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,400,2400
+Embu,12,Farmer,Beans,Mulching,No. of Persons,3,2,500,3000,Fertilizer (microdose),Bags-90Kg,1,5000,5000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.1,5000,500
+Embu,12,Farmer,Beans,Microdosing,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,12,Farmer,Beans,Intercropping,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,12,Farmer,Beans,Crop rotation,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,13,Farmer,Maize,Ripping,No. of Persons,6,2,500,6000,Improved seeds,Packet-2Kg,0.9,300,270,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,20,45,900
+Embu,13,Farmer,Maize,Planting basins,No. of Persons,7,3,500,10500,Fertilizer (microdose),Bags-90Kg,0.1,2500,250,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,2,1000,100
+Embu,13,Farmer,Maize,Manure application,No. of Persons,4,4,500,8000,Manure (if purchased),,1,25000,25000,,,,,0
+Embu,13,Farmer,Maize,Mulching,No. of Persons,4,4,500,8000,Mulching materials,,4,6000,24000,,,,,0
+Embu,13,Farmer,Maize,Microdosing,No. of Persons,5,4,500,10000,Tree seedlings,,80,300,24000,,,,0,0
+Embu,13,Farmer,Maize,Agroforestry,No. of Persons,6,3,500,9000,,,,,0,,,,0,0
+Embu,13,Farmer,Maize,Intercropping,No. of Persons,4,3,500,6000,,,,,0,,,,0,0
+Embu,13,Farmer,Maize,Crop rotation,No. of Persons,6,2,500,6000,,,,,0,,,,0,0
+Embu,14,VBA,Beans,Ripping,No. of Persons,4,2,500,4000,Improved seeds,Packet-2Kg,8,600,4800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,3,8000,24000
+Embu,14,VBA,Beans,Planting basins,No. of Persons,6,3,500,9000,Fertilizer (microdose),Bags-90Kg,0.8,2500,2000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,2500,2500
+Embu,14,VBA,Beans,Manure application,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,14,VBA,Beans,Mulching,No. of Persons,3,4,500,6000,,,,,0,,,,0,0
+Embu,14,VBA,Beans,Microdosing,No. of Persons,1,1,500,500,,,,,0,,,,0,0
+Embu,14,VBA,Beans,Agroforestry,No. of Persons,2,2,500,2000,,,,,0,,,,0,0
+Embu,14,VBA,Beans,Intercropping,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,15,VBA,Beans,Manure application,No. of Persons,4,1,500,2000,Improved seeds,Packet-2Kg,6,600,3600,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,7,12000,84000
+Embu,15,VBA,Beans,Mulching,No. of Persons,3,2,500,3000,Fertilizer (microdose),Bags-90Kg,20,1500,30000,,,,,0
+Embu,15,VBA,Beans,Microdosing,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,15,VBA,Beans,Intercropping,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,15,VBA,Beans,Crop rotation,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,16,VBA,maize,Ripping,No. of Persons,8,1,500,4000,Improved seeds,Packet-2Kg,4,800,3200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,5,4000,20000
+Embu,16,VBA,maize,Manure application,No. of Persons,6,1,500,3000,Fertilizer (microdose),Bags-90Kg,0.5,2500,1250,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,10,50,500
+Embu,16,VBA,maize,Mulching,No. of Persons,6,1,500,3000,Tree seedlings,,40,100,4000,,,,0,0
+Embu,16,VBA,maize,Microdosing,No. of Persons,3,1,500,1500,,,,,0,,,,0,0
+Embu,16,VBA,maize,Agroforestry,No. of Persons,2,1,500,1000,,,,,0,,,,0,0
+Embu,16,VBA,maize,Intercropping,No. of Persons,6,1,500,3000,,,,,0,,,,0,0
+Embu,16,VBA,maize,Crop rotation,No. of Persons,6,1,500,3000,,,,,0,,,,0,0
+Embu,17,VBA,maize,Ripping,No. of Persons,4,2,500,4000,Improved seeds,Packet-2Kg,8,1000,8000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,2,2400,4800
+Embu,17,VBA,maize,Planting basins,No. of Persons,6,2,600,7200,Fertilizer (microdose),Bags-90Kg,0.5,2600,1300,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.5,2500,1250
+Embu,17,VBA,maize,Manure application,No. of Persons,4,2,500,4000,Manure (if purchased),,2,400,800,,,,,0
+Embu,17,VBA,maize,Mulching,No. of Persons,3,1,500,1500,Tree seedlings,,1000,10,10000,,,,,0
+Embu,17,VBA,maize,Microdosing,No. of Persons,3,1,500,1500,Mulching materials,,20,500,10000,,,,,0
+Embu,17,VBA,maize,Agroforestry,No. of Persons,4,5,500,10000,,,,,0,,,,0,0
+Embu,17,VBA,maize,Intercropping,No. of Persons,5,1,500,2500,,,,,0,,,,0,0
+Embu,17,VBA,maize,Crop rotation,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,18,VBA,maize,Ripping,No. of Persons,8,2,500,8000,Improved seeds,Packet-2Kg,4,950,3800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,2,1500,3000
+Embu,18,VBA,maize,Planting basins,No. of Persons,4,4,500,8000,Fertilizer (microdose),Bags-90Kg,1,2500,2500,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.2,2500,500
+Embu,18,VBA,maize,Manure application,No. of Persons,4,2,500,4000,Manure (if purchased),,2,2000,4000,,,,,0
+Embu,18,VBA,maize,Mulching,No. of Persons,4,1,500,2000,Tree seedlings,,60,150,9000,,,,,0
+Embu,18,VBA,maize,Microdosing,No. of Persons,4,1,500,2000,,,,,0,,,,0,0
+Embu,18,VBA,maize,Agroforestry,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,18,VBA,maize,Intercropping,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Embu,18,VBA,maize,Crop rotation,No. of Persons,4,2,500,4000,,,,,0,,,,0,0
+Makueni,19,Farmer,Maize,Ripping,No. of Persons,2,7,400,5600,Improved seeds,Packet-2Kg,2,900,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,3,400,1200
+Makueni,19,Farmer,Maize,Ripping,No. of Persons,,,,0,Fertilizer (microdose),Bags-90Kg,50,80,4000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.25,800,200
+Makueni,19,Farmer,Maize,,,,,,0,Tree seedlings,,50,40,2000,,,,,0
+Makueni,20,Farmer,Maize,Ripping,No. of Persons,1,4,300,1200,Improved seeds,,2,900,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1,400,400
+Makueni,20,Farmer,Maize,Planting basins,No. of Persons,1,5,300,1500,Fertilizer (microdose),,10,100,1000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,200,200
+Makueni,20,Farmer,Maize,Manure application,No. of Persons,1,1,300,300,,,,,0,,,,0,0
+Makueni,21,Farmer,Beans,Ripping,No. of Persons,1,4,300,1200,,,,,0,,,,0,0
+Makueni,21,Farmer,Beans,Planting basins,No. of Persons,1,3,300,900,,,,,0,,,,0,0
+Makueni,22,Farmer,Maize,Ripping,No. of Persons,1,1,300,300,Improved seeds,Packet-2Kg,2,900,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,10,5000,50000
+Makueni,22,Farmer,Maize,,,,,,0,Fertilizer (microdose),,1,2500,2500,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,12,100,1200
+Makueni,23,Farmer,Maize,Ripping,No. of Persons,1,8,300,2400,Improved seeds,Packet-2Kg,2,1000,2000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,10,5000,50000
+Makueni,23,Farmer,Maize,,,,,,0,Fertilizer (microdose),Bags-90Kg,2,2500,5000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.25,100,25
+Makueni,24,Farmer,Maize,,,,,,0,Improved seeds,Packet-2Kg,2,1000,2000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,7,5000,35000
+Makueni,24,Farmer,Maize,,,,,,0,Fertilizer (microdose),Bags-90Kg,0.5,2500,1250,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.05,100,5
+Makueni,25,Farmer,Maize,,,,,,0,Improved seeds,Packet-2Kg,2,1000,2000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,10,1500,15000
+Makueni,25,Farmer,Maize,,,,,,0,Fertilizer (microdose),Bags-90Kg,0.1,1000,100,"Tree or crop by-products (fodder, fuelwood, etc.)",,1,500,500
+Makueni,25,Farmer,Maize,,,,,,0,Tree seedlings,,50,150,7500,,,,,0
+Makueni,26,Farmer,Maize,,,,,,0,Improved seeds,Packet-2Kg,2,1000,2000,,,,3002,0
+Makueni,26,Farmer,Maize,,,,,,0,Fertilizer (microdose),Bags-90Kg,0.1,1000,100,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,5,4500,22500
+Makueni,26,Farmer,Maize,,,,,,0,Tree seedlings,,50,1500,75000,,,,,0
+Makueni,26,Farmer,Maize,,,,,,0,Improved seeds,Packet-2Kg,4,2000,8000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,4,4500,18000
+Makueni,26,Farmer,Maize,,,,,,0,Fertilizer (microdose),Bags-90Kg,15,1500,22500,,,,,0
+Makueni,27,Farmer,Maize,Ripping,No. of Persons,2,2,400,1600,Improved seeds,Packet-2Kg,4,1000,4000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,4,4500,18000
+Makueni,27,Farmer,Maize,Manure application,No. of Persons,1,2,300,600,Fertilizer (microdose),Bags-90Kg,10,2600,26000,,,,,0
+Makueni,27,Farmer,Maize,Microdosing,No. of Persons,2,1,200,400,Tree seedlings,,100,200,20000,,,,,0
+Makueni,28,Farmer,maize,Ripping,No. of Persons,2,4,400,3200,Improved seeds,Packet-2Kg,4,1000,4000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,4,4500,18000
+Makueni,28,Farmer,maize,Manure application,No. of Persons,2,2,200,800,Fertilizer (microdose),Bags-90Kg,0.5,5000,2500,,,,,0
+Makueni,28,Farmer,maize,Microdosing,No. of Persons,1,3,300,900,,,,,0,,,,0,0
+Makueni,29,VBA,Maize,Ripping,No. of Persons,3,2,300,1800,Improved seeds,Packet-2Kg,4,450,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,15,5000,75000
+Makueni,29,VBA,Maize,Planting basins,No. of Persons,3,3,300,2700,Fertilizer (microdose),Bags-90Kg,50,100,5000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,20,100,2000
+Makueni,29,VBA,Maize,Manure application,No. of Persons,3,6,300,5400,Manure (if purchased),,3000,8,24000,,,,,0
+Makueni,29,VBA,Maize,Microdosing,No. of Persons,3,3,300,2700,,,,,0,,,,0,0
+Makueni,29,VBA,Maize,Crop rotation,No. of Persons,3,3,300,2700,,,,,0,,,,0,0
+Makueni,30,VBA,maize,Ripping,No. of Persons,2,14,500,14000,Improved seeds,Packet-2Kg,6,950,5700,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,4,4500,18000
+Makueni,30,VBA,maize,Planting basins,No. of Persons,4,7,500,14000,Fertilizer (microdose),Bags-90Kg,0.5,5000,2500,,,10,1000,10000
+Makueni,30,VBA,maize,Manure application,No. of Persons,3,7,500,10500,Manure (if purchased),,1,18000,18000,,,,,0
+Makueni,30,VBA,maize,Microdosing,No. of Persons,2,7,500,7000,Tree seedlings,,100,50,5000,,,,,0
+Makueni,30,VBA,maize,Intercropping,No. of Persons,4,7,500,14000,,,,,0,,,,0,0
+Makueni,30,VBA,maize,Crop rotation,No. of Persons,4,7,500,14000,,,,,0,,,,0,0
+Makueni,31,VBA,maize,Planting basins,No. of Persons,2,3,400,2400,Improved seeds,Packet-2Kg,4,450,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,3.36,"10,000",33600
+Makueni,31,VBA,maize,Manure application,No. of Persons,2,3,400,2400,Fertilizer (microdose),Bags-90Kg,0.2,50,10,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,1300,1300
+Makueni,31,VBA,maize,Mulching,No. of Persons,2,1,400,800,Manure (if purchased),,5,4800,24000,"Tree or crop by-products (fodder, fuelwood, etc.)",Bags-90Kg,1,3500,3500
+Makueni,31,VBA,maize,Microdosing,No. of Persons,2,2,400,1600,Tree seedlings,,50,50,2500,,,,,0
+Makueni,31,VBA,maize,Agroforestry,No. of Persons,4,1,400,1600,,,,,0,,,,0,0
+Makueni,31,VBA,maize,Intercropping,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Makueni,31,VBA,maize,Crop rotation,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Makueni,32,VBA,maize,Ripping,No. of Persons,3,5,300,4500,Improved seeds,Packet-2Kg,4,750,3000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,500,50,25000
+Makueni,32,VBA,maize,Planting basins,No. of Persons,5,5,300,7500,Fertilizer (microdose),Bags-90Kg,25,50,1250,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,10,50,500
+Makueni,32,VBA,maize,Manure application,No. of Persons,3,3,300,2700,Tree seedlings,,1000,40,40000,"Tree or crop by-products (fodder, fuelwood, etc.)",,40,60,2400
+Makueni,32,VBA,maize,Mulching,No. of Persons,2,3,300,1800,,,,,0,,,,0,0
+Makueni,32,VBA,maize,Microdosing,No. of Persons,2,2,300,1200,,,,,0,,,,0,0
+Makueni,33,VBA,maize,Planting basins,No. of Persons,4,1,500,2000,Improved seeds,Packet-2Kg,3,500,1500,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1200,50,60000
+Makueni,33,VBA,maize,Manure application,No. of Persons,2,1,500,1000,Fertilizer (microdose),Bags-90Kg,1,1300,1300,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,25,50,1250
+Makueni,33,VBA,maize,Microdosing,No. of Persons,2,1,500,1000,Tree seedlings,,50,30,1500,Other benefits (specify),,1,3000,3000
+Makueni,33,VBA,maize,Agroforestry,No. of Persons,2,2,500,2000,,,,,0,,,,0,0
+Tharaka Nithi,34,VBA,maize,Planting basins,No. of Persons,4,1,400,1600,Improved seeds,Packet-2Kg,10,450,4500,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,30,4000,120000
+Tharaka Nithi,34,VBA,maize,Manure application,No. of Persons,8,1,400,3200,Fertilizer (microdose),Bags-90Kg,1,2500,2500,"Tree or crop by-products (fodder, fuelwood, etc.)",Bags-90Kg,3,500,1500
+Tharaka Nithi,34,VBA,maize,Mulching,No. of Persons,4,3,400,4800,Manure (if purchased),,1,12000,12000,Other benefits (specify),,20,500,10000
+Tharaka Nithi,34,VBA,maize,Microdosing,No. of Persons,1,1,400,400,,,,,0,,,,0,0
+Tharaka Nithi,34,VBA,maize,Intercropping,No. of Persons,8,1,400,3200,,,,,0,,,,0,0
+Tharaka Nithi,34,VBA,maize,Crop rotation,No. of Persons,8,1,400,3200,,,,,0,,,,0,0
+Tharaka Nithi,35,VBA,Sorghum,Ripping,No. of Persons,4,4,500,8000,Improved seeds,Packet-2Kg,2,500,1000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1800,40,72000
+Tharaka Nithi,35,VBA,Sorghum,Manure application,No. of Persons,4,2,500,4000,Fertilizer (microdose),Bags-90Kg,1,2500,2500,Other benefits (specify),Bags-90Kg,1,10000,10000
+Tharaka Nithi,35,VBA,Sorghum,Microdosing,No. of Persons,6,7,400,16800,Tree seedlings,,40,20,800,,,,,0
+Tharaka Nithi,36,VBA,Maize,Ripping,No. of Persons,1,2,1000,2000,Improved seeds,,2,800,1600,,,,,0
+Tharaka Nithi,36,VBA,Maize,Planting basins,No. of Persons,2,2,800,3200,Fertilizer (microdose),,1,3000,3000,,,,,0
+Tharaka Nithi,36,VBA,Maize,Manure application,No. of Persons,2,2,800,3200,Manure (if purchased),,10,200,2000,,,,,0
+Tharaka Nithi,36,VBA,Maize,Mulching,No. of Persons,4,2,1600,12800,Tree seedlings,,1,150,150,,,,,0
+Tharaka Nithi,36,VBA,Maize,Microdosing,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,36,VBA,Maize,Agroforestry,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,36,VBA,Maize,Intercropping,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Tharaka Nithi,36,VBA,Maize,Crop rotation,No. of Persons,2,2,800,3200,,,,,0,,,,0,0
+Tharaka Nithi,37,Farmer,Maize,Ripping,No. of Persons,1,2,1000,2000,Improved seeds,Packet-2Kg,1,850,850,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,2,850,1700
+Tharaka Nithi,37,Farmer,Maize,Planting basins,No. of Persons,2,1,1000,2000,Fertilizer (microdose),Bags-90Kg,1,6000,6000,,,,,0
+Tharaka Nithi,37,Farmer,Maize,Manure application,No. of Persons,2,1,400,800,Manure (if purchased),,10,100,1000,,,,,0
+Tharaka Nithi,37,Farmer,Maize,Mulching,No. of Persons,1,2,500,1000,Tree seedlings,,1,50,50,,,,,0
+Tharaka Nithi,37,Farmer,Maize,Microdosing,No. of Persons,2,1,500,1000,,,,,0,,,,0,0
+Tharaka Nithi,37,Farmer,Maize,Agroforestry,No. of Persons,1,1,400,400,,,,,0,,,,0,0
+Tharaka Nithi,37,Farmer,Maize,Intercropping,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,37,Farmer,Maize,Crop rotation,No. of Persons,2,1,300,600,,,,,0,,,,0,0
+Tharaka Nithi,38,Farmer,Maize,Ripping,No. of Persons,5,2,400,4000,Fertilizer (microdose),,2,500,1000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1,900,900
+Tharaka Nithi,38,Farmer,Maize,Planting basins,No. of Persons,2,1,300,600,,,,,0,,,2,2500,5000
+Tharaka Nithi,38,Farmer,Maize,Manure application,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Tharaka Nithi,38,Farmer,Maize,Microdosing,No. of Persons,2,3,300,1800,,,,,0,,,,0,0
+Tharaka Nithi,39,VBA,Sorghum,Ripping,No. of Persons,1,1,2600,2600,Improved seeds,Packet-2Kg,4,500,2000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,4,250,1000
+Tharaka Nithi,39,VBA,Sorghum,Planting basins,No. of Persons,10,4,400,16000,Fertilizer (microdose),Bags-90Kg,5,100,500,Other benefits (specify),Bags-90Kg,1,10000,10000
+Tharaka Nithi,39,VBA,Sorghum,Manure application,No. of Persons,10,3,400,12000,Manure (if purchased),,5,1500,7500,,,,,0
+Tharaka Nithi,39,VBA,Sorghum,Mulching,No. of Persons,1,2,400,800,Mulching materials,,50,2000,100000,,,,,0
+Tharaka Nithi,39,VBA,Sorghum,Microdosing,No. of Persons,10,5,400,20000,Tree seedlings,,100,50,5000,,,,,0
+Tharaka Nithi,39,VBA,Sorghum,Agroforestry,No. of Persons,2,10,500,10000,,,,,0,,,,0,0
+Tharaka Nithi,39,VBA,Sorghum,Intercropping,No. of Persons,2,1,500,1000,,,,,0,,,,0,0
+Tharaka Nithi,39,VBA,Sorghum,Crop rotation,No. of Persons,2,1,500,1000,,,,,0,,,,0,0
+Tharaka Nithi,40,Farmer,Green Grams,Ripping,No. of Persons,1,1,2500,2500,Improved seeds,Packet-2Kg,2,500,1000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,5,250,1250
+Tharaka Nithi,40,Farmer,Green Grams,Planting basins,No. of Persons,10,4,400,16000,Fertilizer (microdose),Bags-90Kg,5,5000,25000,Other benefits (specify),Bags-90Kg,0.5,10000,5000
+Tharaka Nithi,40,Farmer,Green Grams,Manure application,No. of Persons,3,3,400,3600,Manure (if purchased),,5,15000,75000,,,,,0
+Tharaka Nithi,40,Farmer,Green Grams,Mulching,No. of Persons,1,3,400,1200,Mulching materials,,50,2500,125000,,,,,0
+Tharaka Nithi,40,Farmer,Green Grams,Microdosing,No. of Persons,10,5,400,20000,Tree seedlings,,50,50,2500,,,,,0
+Tharaka Nithi,40,Farmer,Green Grams,Agroforestry,No. of Persons,5,5,600,15000,,,,,0,,,,0,0
+Tharaka Nithi,40,Farmer,Green Grams,Intercropping,No. of Persons,2,3,600,3600,,,,,0,,,,0,0
+Tharaka Nithi,40,Farmer,Green Grams,Crop rotation,No. of Persons,2,1,600,1200,,,,,0,,,,0,0
+Tharaka Nithi,41,VBA,Sorghum,Ripping,No. of Persons,1,1,2500,2500,Improved seeds,Packet-2Kg,4,500,2000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,250,1500
+Tharaka Nithi,41,VBA,Sorghum,Planting basins,No. of Persons,10,4,400,16000,Fertilizer (microdose),Bags-90Kg,3,2500,7500,Other benefits (specify),Bags-90Kg,0.5,10000,5000
+Tharaka Nithi,41,VBA,Sorghum,Manure application,No. of Persons,3,3,400,3600,Manure (if purchased),,5,15000,75000,,,,90005,0
+Tharaka Nithi,41,VBA,Sorghum,Mulching,No. of Persons,3,2,400,2400,Mulching materials,,500,25,12500,,,,13025,0
+Tharaka Nithi,41,VBA,Sorghum,Microdosing,No. of Persons,10,5,400,20000,Tree seedlings,,50,50,2500,,,,2600,0
+Tharaka Nithi,41,VBA,Sorghum,Agroforestry,No. of Persons,5,5,600,15000,,,,,0,,,,0,0
+Tharaka Nithi,41,VBA,Sorghum,Intercropping,No. of Persons,2,1,600,1200,,,,,0,,,,0,0
+Tharaka Nithi,41,VBA,Sorghum,Crop rotation,No. of Persons,2,1,600,1200,,,,,0,,,,0,0
+Tharaka Nithi,42,Farmer,Green Grams,Ripping,No. of Persons,1,2,1500,3000,Improved seeds,Packet-2Kg,4,500,2000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,7,60,420
+Tharaka Nithi,42,Farmer,Green Grams,Planting basins,No. of Persons,2,2,400,1600,Fertilizer (microdose),Bags-90Kg,1,2500,2500,Other benefits (specify),Bags-90Kg,5,50,250
+Tharaka Nithi,42,Farmer,Green Grams,Manure application,No. of Persons,3,1,400,1200,Tree seedlings,,10,50,500,,,,,0
+Tharaka Nithi,42,Farmer,Green Grams,Mulching,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,42,Farmer,Green Grams,Microdosing,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Tharaka Nithi,42,Farmer,Green Grams,Agroforestry,No. of Persons,1,1,400,400,,,,,0,,,,0,0
+Tharaka Nithi,42,Farmer,Green Grams,Intercropping,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,42,Farmer,Green Grams,Crop rotation,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Tharaka Nithi,43,Farmer,Green Grams,Ripping,No. of Persons,1,1,1500,1500,Improved seeds,Packet-2Kg,2,4500,9000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,90,540
+Tharaka Nithi,43,Farmer,Green Grams,Planting basins,No. of Persons,2,2,400,1600,Fertilizer (microdose),Bags-90Kg,2,200,400,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,5,200,1000
+Tharaka Nithi,43,Farmer,Green Grams,Manure application,No. of Persons,3,1,400,1200,Mulching materials,,2,300,600,,,,,0
+Tharaka Nithi,43,Farmer,Green Grams,Mulching,No. of Persons,2,1,400,800,Tree seedlings,,15,10,150,,,,,0
+Tharaka Nithi,43,Farmer,Green Grams,Microdosing,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Tharaka Nithi,43,Farmer,Green Grams,Agroforestry,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Tharaka Nithi,43,Farmer,Green Grams,Intercropping,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,43,Farmer,Green Grams,Crop rotation,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,44,Farmer,Green Grams,Ripping,No. of Persons,2,4,400,3200,Improved seeds,Packet-2Kg,5,800,4000,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,1,600,600
+Tharaka Nithi,44,Farmer,Green Grams,Planting basins,No. of Persons,4,2,300,2400,Fertilizer (microdose),Bags-90Kg,1,1500,1500,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,0.5,750,375
+Tharaka Nithi,44,Farmer,Green Grams,Manure application,No. of Persons,5,3,350,5250,Tree seedlings,,50,200,10000,"Tree or crop by-products (fodder, fuelwood, etc.)",Bags-90Kg,100,2000,200000
+Tharaka Nithi,44,Farmer,Green Grams,Mulching,No. of Persons,1,3,500,1500,,,,,0,,,,0,0
+Tharaka Nithi,44,Farmer,Green Grams,Microdosing,No. of Persons,6,1,450,2700,,,,,0,,,,0,0
+Tharaka Nithi,44,Farmer,Green Grams,Agroforestry,No. of Persons,5,7,300,10500,,,,,0,,,,0,0
+Tharaka Nithi,44,Farmer,Green Grams,Intercropping,No. of Persons,2,5,350,3500,,,,,0,,,,0,0
+Tharaka Nithi,44,Farmer,Green Grams,Crop rotation,No. of Persons,4,2,400,3200,,,,,0,,,,0,0
+Tharaka Nithi,45,Farmer,Green Grams,Ripping,No. of Persons,1,3,350,1050,Improved seeds,Packet-2Kg,5,100,500,Other benefits (specify),Bags-90Kg,,,0
+Tharaka Nithi,45,Farmer,Green Grams,Planting basins,No. of Persons,2,4,400,3200,Fertilizer (microdose),Bags-90Kg,50,1,50,,,,,0
+Tharaka Nithi,45,Farmer,Green Grams,Manure application,No. of Persons,4,3,400,4800,Mulching materials,,20,100,2000,,,,,0
+Tharaka Nithi,45,Farmer,Green Grams,Mulching,No. of Persons,3,3,450,4050,Tree seedlings,,,,0,,,,0,0
+Tharaka Nithi,45,Farmer,Green Grams,Microdosing,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Tharaka Nithi,45,Farmer,Green Grams,Agroforestry,No. of Persons,6,4,350,8400,,,,,0,,,,0,0
+Tharaka Nithi,45,Farmer,Green Grams,Intercropping,No. of Persons,4,6,300,7200,,,,,0,,,,0,0
+Tharaka Nithi,45,Farmer,Green Grams,Crop rotation,No. of Persons,3,5,350,5250,,,,,0,,,,0,0
+Tharaka Nithi,46,VBA,Sorghum,Ripping,No. of Persons,1,1,1500,1500,Improved seeds,Packet-2Kg,4,800,3200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,12,50,600
+Tharaka Nithi,46,VBA,Sorghum,Planting basins,No. of Persons,2,2,400,1600,Fertilizer (microdose),Bags-90Kg,50,80,4000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,3,80,240
+Tharaka Nithi,46,VBA,Sorghum,Manure application,No. of Persons,3,1,400,1200,Tree seedlings,,20,50,1000,,,,,0
+Tharaka Nithi,46,VBA,Sorghum,Mulching,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,46,VBA,Sorghum,Microdosing,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Tharaka Nithi,46,VBA,Sorghum,Agroforestry,No. of Persons,1,1,400,400,,,,,0,,,,0,0
+Tharaka Nithi,46,VBA,Sorghum,Intercropping,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,46,VBA,Sorghum,Crop rotation,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,47,VBA,Sorghum,Ripping,No. of Persons,1,1,2200,2200,Improved seeds,Packet-2Kg,4,1100,4400,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,4200,25200
+Tharaka Nithi,47,VBA,Sorghum,Planting basins,No. of Persons,2,2,300,1200,Fertilizer (microdose),Bags-90Kg,5,120,600,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,1,150,150
+Tharaka Nithi,47,VBA,Sorghum,Manure application,No. of Persons,2,2,400,1600,Manure (if purchased),,5,15000,75000,,,,,0
+Tharaka Nithi,47,VBA,Sorghum,Mulching,No. of Persons,1,3,300,900,Mulching materials,,50,1500,75000,,,,,0
+Tharaka Nithi,47,VBA,Sorghum,Microdosing,No. of Persons,2,2,400,1600,Tree seedlings,,50,100,5000,,,,,0
+Tharaka Nithi,47,VBA,Sorghum,Agroforestry,No. of Persons,2,2,300,1200,,,,,0,,,,0,0
+Tharaka Nithi,47,VBA,Sorghum,Intercropping,No. of Persons,2,3,600,3600,,,,,0,,,,0,0
+Tharaka Nithi,47,VBA,Sorghum,Crop rotation,No. of Persons,2,3,600,3600,,,,,0,,,,0,0
+Tharaka Nithi,48,Farmer,Green Grams,Ripping,No. of Persons,1,1,2200,2200,Improved seeds,Packet-2Kg,2,600,1200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,1000,6000
+Tharaka Nithi,48,Farmer,Green Grams,Planting basins,No. of Persons,2,2,700,2800,Fertilizer (microdose),Bags-90Kg,25,2500,62500,,,,,0
+Tharaka Nithi,48,Farmer,Green Grams,Manure application,No. of Persons,4,1,1400,5600,Manure (if purchased),,8,1000,8000,,,,,0
+Tharaka Nithi,48,Farmer,Green Grams,Mulching,No. of Persons,4,1,1400,5600,Mulching materials,,8,1000,8000,,,,,0
+Tharaka Nithi,48,Farmer,Green Grams,Microdosing,No. of Persons,2,1,700,1400,Tree seedlings,,10,1000,10000,,,,,0
+Tharaka Nithi,48,Farmer,Green Grams,Agroforestry,No. of Persons,3,2,1050,6300,,,,,0,,,,0,0
+Tharaka Nithi,48,Farmer,Green Grams,Intercropping,No. of Persons,2,1,700,1400,,,,,0,,,,0,0
+Tharaka Nithi,48,Farmer,Green Grams,Crop rotation,No. of Persons,2,1,700,1400,,,,,0,,,,0,0
+Tharaka Nithi,49,Farmer,Green Grams,Ripping,No. of Persons,1,2,1000,2000,Improved seeds,Packet-2Kg,2,450,900,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,180,3600,648000
+Tharaka Nithi,49,Farmer,Green Grams,Planting basins,No. of Persons,2,2,800,3200,Fertilizer (microdose),Bags-90Kg,50,3000,150000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,25,80,2000
+Tharaka Nithi,49,Farmer,Green Grams,Manure application,No. of Persons,2,2,800,3200,,,,,0,,,,0,0
+Tharaka Nithi,49,Farmer,Green Grams,Mulching,No. of Persons,4,2,800,6400,,,,,0,,,,0,0
+Tharaka Nithi,49,Farmer,Green Grams,Microdosing,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,49,Farmer,Green Grams,Agroforestry,No. of Persons,2,1,400,800,,,,,0,,,,0,0
+Tharaka Nithi,49,Farmer,Green Grams,Intercropping,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Tharaka Nithi,49,Farmer,Green Grams,Crop rotation,No. of Persons,2,2,400,1600,,,,,0,,,,0,0
+Kitui,50,Farmer,Green Grams,Ripping,No. of Persons,2,1,2500,5000,Improved seeds,Packet-2Kg,4,1800,7200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,9,900,8100
+Kitui,50,Farmer,Green Grams,Planting basins,No. of Persons,2,2,400,1600,Fertilizer (microdose),Bags-90Kg,50,120,6000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,3,500,1500
+Kitui,50,Farmer,Green Grams,Manure application,No. of Persons,1,1,400,400,Tree seedlings,,120,50,6000,"Tree or crop by-products (fodder, fuelwood, etc.)",Bags-90Kg,25,120,3000
+Kitui,50,Farmer,Green Grams,Mulching,No. of Persons,2,1,800,1600,,,,,0,Other benefits (specify),,5000,10,50000
+Kitui,50,Farmer,Green Grams,Microdosing,No. of Persons,2,1,1000,2000,,,,,0,,,,0,0
+Kitui,50,Farmer,Green Grams,Agroforestry,No. of Persons,2,2,1500,6000,,,,,0,,,,0,0
+Kitui,50,Farmer,Green Grams,Intercropping,No. of Persons,2,1,800,1600,,,,,0,,,,0,0
+Kitui,50,Farmer,Green Grams,Crop rotation,No. of Persons,1,2,400,800,,,,,0,,,,0,0
+Kitui,51,Farmer,Maize,Ripping,No. of Persons,1,2,3000,6000,Improved seeds,Packet-2Kg,4,600,2400,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,3,900,2700
+Kitui,51,Farmer,Maize,Planting basins,No. of Persons,3,2,500,3000,Fertilizer (microdose),Bags-90Kg,25,120,3000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,3,500,1500
+Kitui,51,Farmer,Maize,Manure application,No. of Persons,2,4,500,4000,Tree seedlings,,50,100,5000, ,,,,0
+Kitui,51,Farmer,Maize,Mulching,No. of Persons,1,2,500,1000,,,,,0,,,,0,0
+Kitui,51,Farmer,Maize,Microdosing,No. of Persons,1,1,500,500,,,,,0,,,,0,0
+Kitui,51,Farmer,Maize,Agroforestry,No. of Persons,3,2,500,3000,,,,,0,,,,0,0
+Kitui,51,Farmer,Maize,Intercropping,No. of Persons,4,5,500,10000,,,,,0,,,,0,0
+Kitui,51,Farmer,Maize,Crop rotation,No. of Persons,2,2,500,2000,Improved seeds,Packet-2Kg,2,900,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,3,400,1200
+Kitui,52,VBA,Maize,Ripping,No. of Persons,1,2,500,1000,Fertilizer (microdose),Bags-90Kg,2,2500,5000,,,,,0
+Kitui,52,VBA,Maize,Planting basins,No. of Persons,3,2,500,3000,,,,,0,,,,0,0
+Kitui,52,VBA,Maize,Manure application,No. of Persons,2,4,500,4000,,,,,0,,,,0,0
+Kitui,52,VBA,Maize,Mulching,No. of Persons,1,2,500,1000,,,,,0,,,,0,0
+Kitui,52,VBA,Maize,Microdosing,No. of Persons,1,1,500,500,,,,,0,,,,0,0
+Kitui,52,VBA,Maize,Agroforestry,No. of Persons,3,2,500,3000,,,,,0,,,,,0
+Kitui,52,VBA,Maize,Intercropping,No. of Persons,4,5,500,10000,,,,,0,,,,,0
+Kitui,52,VBA,Maize,Crop rotation,No. of Persons,2,2,500,2000,,,,,0,,,,,0
+Kitui,53,VBA,Maize,Ripping,No. of Persons,1,20,350,7000,Improved seeds,Packet-2Kg,2,900,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,8,5000,40000
+Kitui,53,VBA,Maize,Planting basins,No. of Persons,3,20,350,21000,Fertilizer (microdose),Bags-90Kg,20,135,2700,,,,,0
+Kitui,53,VBA,Maize,Manure application,No. of Persons,2,20,350,14000,Manure (if purchased),,4,400,1600,,,,,0
+Kitui,53,VBA,Maize,Mulching,No. of Persons,1,10,350,3500,,,,,0,,,,,0
+Kitui,53,VBA,Maize,Microdosing,No. of Persons,1,20,350,7000,,,,,0,,,,,0
+Kitui,53,VBA,Maize,Agroforestry,No. of Persons,3,5,350,5250,,,,,0,,,,,0
+Kitui,53,VBA,Maize,Intercropping,No. of Persons,4,20,350,28000,,,,,0,,,,,0
+Kitui,53,VBA,Maize,Crop rotation,No. of Persons,2,10,350,7000,,,,,0,,,,,0
+Kitui,54,VBA,Maize,Ripping,No. of Persons,1,1,500,500,Improved seeds,Packet-2Kg,3,600,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,6,4000,24000
+Kitui,54,VBA,Maize,Planting basins,No. of Persons,3,3,400,3600,Fertilizer (microdose),Bags-90Kg,50,120,6000,,,5,3000,15000
+Kitui,54,VBA,Maize,Manure application,No. of Persons,2,3,350,2100,Tree seedlings,,25,120,3000,,,,,0
+Kitui,54,VBA,Maize,Mulching,No. of Persons,1,3,400,1200,,,,,0,,,,,0
+Kitui,54,VBA,Maize,Microdosing,No. of Persons,1,3,400,1200,,,,,0,,,,,0
+Kitui,54,VBA,Maize,Agroforestry,No. of Persons,3,3,350,3150,,,,,0,,,,,0
+Kitui,54,VBA,Maize,Intercropping,No. of Persons,4,7,400,11200,,,,,0,,,,,0
+Kitui,54,VBA,Maize,Crop rotation,No. of Persons,2,1,350,700,,,,,0,,,,,0
+Kitui,55,VBA,Maize,Ripping,No. of Persons,2,1,300,600,Improved seeds,Packet-2Kg,4,950,3800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,9,4950,44550
+Kitui,55,VBA,Maize,Planting basins,No. of Persons,3,3,300,2700,Fertilizer (microdose),Bags-90Kg,1,120,120,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,3,500,1500
+Kitui,55,VBA,Maize,Manure application,No. of Persons,4,3,300,3600,Manure (if purchased),,2,1000,2000,"Tree or crop by-products (fodder, fuelwood, etc.)",Bags-90Kg,4,500,2000
+Kitui,55,VBA,Maize,Mulching,No. of Persons,4,4,300,4800,Mulching materials,,30,130,3900,,,,,0
+Kitui,55,VBA,Maize,Microdosing,No. of Persons,5,3,300,4500,,,,,0,,,,,0
+Kitui,55,VBA,Maize,Agroforestry,No. of Persons,2,3,300,1800,,,,,0,,,,,0
+Kitui,55,VBA,Maize,Intercropping,No. of Persons,2,2,300,1200,,,,,0,,,,,0
+Kitui,55,VBA,Maize,Crop rotation,No. of Persons,5,1,300,1500,,,,,0,,,,,0
+Kitui,56,VBA,Maize,Ripping,No. of Persons,10,2,400,8000,Improved seeds,Packet-2Kg,4,950,3800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,9,4950,44550
+Kitui,56,VBA,Maize,Planting basins,No. of Persons,4,3,500,6000,Fertilizer (microdose),Bags-90Kg,50,120,6000,,,3,500,1500
+Kitui,56,VBA,Maize,Manure application,No. of Persons,2,1,500,1000,Tree seedlings,,40,150,6000,,,25,120,3000
+Kitui,56,VBA,Maize,Mulching,No. of Persons,3,1,400,1200,,,,,0,,,300,15,4500
+Kitui,56,VBA,Maize,Microdosing,No. of Persons,4,2,400,3200,,,,,0,,,,,0
+Kitui,56,VBA,Maize,Agroforestry,No. of Persons,5,10,400,20000,,,,,0,,,,,0
+Kitui,56,VBA,Maize,Intercropping,No. of Persons,5,2,400,4000,,,,,0,,,,,0
+Kitui,56,VBA,Maize,Crop rotation,No. of Persons,5,2,400,4000,,,,,0,,,,,0
+Kitui,57,VBA,Maize,Ripping,No. of Persons,1,1,3000,3000,Improved seeds,Packet-2Kg,2,600,1200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,3,9000,27000
+Kitui,57,VBA,Maize,Planting basins,No. of Persons,3,2,500,3000,Fertilizer (microdose),Bags-90Kg,25,120,3000,"Saved inputs (e.g., reduced fertilizer use)",Bags-90Kg,3,350,1050
+Kitui,57,VBA,Maize,Manure application,No. of Persons,2,2,500,2000,,,,,0,,,,,0
+Kitui,57,VBA,Maize,Mulching,No. of Persons,2,2,500,2000,,,,,0,,,,,0
+Kitui,57,VBA,Maize,Microdosing,No. of Persons,3,2,500,3000,,,,,0,,,,,0
+Kitui,57,VBA,Maize,Agroforestry,No. of Persons,4,4,500,8000,,,,,0,,,,,0
+Kitui,57,VBA,Maize,Intercropping,No. of Persons,2,1,500,1000,,,,,0,,,,,
+Kitui,57,VBA,Maize,Crop rotation,No. of Persons,2,1,500,1000,,,,,0,,,,,
+Kitui,58,VBA,Maize,Ripping,No. of Persons,20,2,350,14000,Improved seeds,Packet-2Kg,2,900,1800,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,8,5000,
+Kitui,58,VBA,Maize,Planting basins,No. of Persons,20,3,350,21000,Fertilizer (microdose),Bags-90Kg,20,135,2700,,,,,
+Kitui,58,VBA,Maize,Manure application,No. of Persons,20,1,350,7000,Manure (if purchased),,4,400,1600,,,,,
+Kitui,58,VBA,Maize,Mulching,No. of Persons,10,1,350,3500,,,,,0,,,,,
+Kitui,58,VBA,Maize,Microdosing,No. of Persons,20,1,350,7000,,,,,0,,,,,
+Kitui,58,VBA,Maize,Agroforestry,No. of Persons,5,3,350,5250,,,,,0,,,,,
+Kitui,58,VBA,Maize,Intercropping,No. of Persons,20,2,350,14000,,,,,0,,,,,
+Kitui,58,VBA,Maize,Crop rotation,No. of Persons,10,2,350,7000,,,,,0,,,,,
+Kitui,59,VBA,Maize,Ripping,No. of Persons,2,1,300,600,Improved seeds,Packet-2Kg,8,400,3200,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,7,100,
+Kitui,59,VBA,Maize,Planting basins,No. of Persons,2,2,300,1200,Fertilizer (microdose),Bags-90Kg,1,6000,6000,"Tree or crop by-products (fodder, fuelwood, etc.)",Bags-90Kg,15,100,
+Kitui,59,VBA,Maize,Manure application,No. of Persons,2,2,300,1200,,,,,0,,,,,
+Kitui,59,VBA,Maize,Mulching,No. of Persons,2,1,300,600,,,,,0,,,,,
+Kitui,59,VBA,Maize,Microdosing,No. of Persons,2,1,300,600,,,,,0,,,,,
+Kitui,59,VBA,Maize,Agroforestry,No. of Persons,3,1,300,900,,,,,0,,,,,
+Kitui,59,VBA,Maize,Intercropping,No. of Persons,2,1,300,600,,,,,0,,,,,
+Kitui,59,VBA,Maize,Crop rotation,No. of Persons,2,1,300,600,,,,,0,,,,,
+Kitui,60,VBA,Maize,Ripping,No. of Persons,2,4,400,3200,Improved seeds,Packet-2kg,5,500,2500,"Yield increase (e.g., maize, Sorghum)",Bags-90Kg,10,1000,
+Kitui,60,VBA,Maize,Planting basins,No. of Persons,1,3,400,1200,Fertilizer (microdose),Bags-90Kg,2,2500,5000,,,,,
+Kitui,60,VBA,Maize,Manure application,No. of Persons,1,3,350,1050,,,,,0,,,,,
+Kitui,60,VBA,Maize,Microdosing,No. of Persons,2,2,400,1600,,,,,0,,,,,
+Kitui,60,VBA,Maize,Agroforestry,No. of Persons,2,2,300,1200,,,,,0,,,,,

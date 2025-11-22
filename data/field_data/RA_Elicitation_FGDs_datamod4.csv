@@ -1,0 +1,436 @@
+﻿County ,Farmer No.,Type of Respondent,Type of Crop,Gender,Scenario Name,Baseline (bags/ac),Land (ac),Weather,Soil,Management,Practice 1,Practice 2,Practice 3,Lowest Yield in bags/ac,Highest Yield in bags/ac
+Kitui,1,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,10
+Kitui,1,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Kitui,1,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1.5,2
+Kitui,1,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,0.75
+Kitui,1,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,8
+Kitui,2,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,10
+Kitui,2,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Kitui,2,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1.5,2
+Kitui,2,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,0.75
+Kitui,2,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,8
+Kitui,3,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,10
+Kitui,3,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Kitui,3,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1.5,2
+Kitui,3,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,0.75
+Kitui,3,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,8
+Kitui,4,VBA,Green Grams,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,14
+Kitui,4,VBA,Green Grams,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,6
+Kitui,4,VBA,Green Grams,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,5
+Kitui,4,VBA,Green Grams,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,No use of Plantin Basins in Green Grams,
+Kitui,4,VBA,Green Grams,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,3
+Kitui,5,VBA,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,14
+Kitui,5,VBA,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,6
+Kitui,5,VBA,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,5
+Kitui,5,VBA,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,No use of Plantin Basins in Green Grams,
+Kitui,5,VBA,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,3
+Kitui,6,VBA,Green Grams,,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,14
+Kitui,6,VBA,Green Grams,,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,6
+Kitui,6,VBA,Green Grams,,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,5
+Kitui,6,VBA,Green Grams,,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,No use of Plantin Basins in Green Grams,
+Kitui,6,VBA,Green Grams,,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,3
+Kitui,7,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,8,18
+Kitui,7,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,5,8
+Kitui,7,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),8,12
+Kitui,7,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,4,6
+Kitui,7,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Kitui,8,RA farmer,Green Grams,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,5
+Kitui,8,RA farmer,Green Grams,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,50,150
+Kitui,8,RA farmer,Green Grams,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,3
+Kitui,8,RA farmer,Green Grams,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,20,50
+Kitui,8,RA farmer,Green Grams,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1.5,4
+Kitui,9,VBA,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,6,8
+Kitui,9,VBA,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Kitui,9,VBA,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,2
+Kitui,9,VBA,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,50,60
+Kitui,9,VBA,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,3
+Kitui,10,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,1,15
+Kitui,10,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,8
+Kitui,10,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,7
+Kitui,10,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,10,20
+Kitui,10,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,100
+Kitui,11,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,10,20
+Kitui,11,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,20
+Kitui,11,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,20
+Kitui,11,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,10,20
+Kitui,11,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,20,30
+Kitui,12,RA farmer,Green Grams,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,6,8
+Kitui,12,RA farmer,Green Grams,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Kitui,12,RA farmer,Green Grams,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,2
+Kitui,12,RA farmer,Green Grams,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,50,60
+Kitui,12,RA farmer,Green Grams,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,3
+Kitui,13,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,9,18
+Kitui,13,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,6,8
+Kitui,13,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),9,16
+Kitui,13,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,1
+Kitui,13,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,8,6
+Tharaka,14,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,16
+Tharaka,14,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,7,20
+Tharaka,14,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),12,25
+Tharaka,14,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,5
+Tharaka,14,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,7
+Tharaka,15,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,6
+Tharaka,15,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Tharaka,15,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),7,10
+Tharaka,15,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Tharaka,15,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,7
+Tharaka,16,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,30,40
+Tharaka,16,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,8,16
+Tharaka,16,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),7,10
+Tharaka,16,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,10,15
+Tharaka,16,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,7
+Tharaka,17,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,6
+Tharaka,17,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Tharaka,17,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,8
+Tharaka,17,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,2
+Tharaka,17,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Tharaka,18,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,8
+Tharaka,18,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,1.5
+Tharaka,18,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),6,10
+Tharaka,18,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Tharaka,18,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,6
+Tharaka,19,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,8
+Tharaka,19,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,1.5
+Tharaka,19,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),6,10
+Tharaka,19,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Tharaka,19,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,6
+Tharaka,20,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,21,85
+Tharaka,20,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,7,20
+Tharaka,20,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),12,40
+Tharaka,20,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,8
+Tharaka,20,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,7,25
+Tharaka,21,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,15,30
+Tharaka,21,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Tharaka,21,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,20
+Tharaka,21,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,5
+Tharaka,21,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,8,10
+Tharaka,22,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,8
+Tharaka,22,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Tharaka,22,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,15
+Tharaka,22,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,4
+Tharaka,22,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Tharaka,23,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,10
+Tharaka,23,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,4,8
+Tharaka,23,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),\,Average,Intercropping,Mulching,Manure application (5 t/ac),5,10
+Tharaka,23,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,5
+Tharaka,23,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Tharaka,24,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,14,20
+Tharaka,24,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Tharaka,24,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,35
+Tharaka,24,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,5
+Tharaka,24,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,15,35
+Tharaka,25,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,8,18
+Tharaka,25,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Tharaka,25,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,8
+Tharaka,25,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Tharaka,25,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,6
+Tharaka,26,RA farmer,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,5
+Tharaka,26,RA farmer,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,Less than 1 bag,1 bag
+Tharaka,26,RA farmer,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,8
+Tharaka,26,RA farmer,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Tharaka,26,RA farmer,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,2
+Tharaka,27,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,20
+Tharaka,27,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Tharaka,27,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),5,10
+Tharaka,27,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Tharaka,27,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,6,10
+Tharaka,28,RA farmer,Beans,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,6
+Tharaka,28,RA farmer,Beans,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,3,5
+Tharaka,28,RA farmer,Beans,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,6
+Tharaka,28,RA farmer,Beans,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,3
+Tharaka,28,RA farmer,Beans,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Tharaka,29,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,10
+Tharaka,29,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,40,50
+Tharaka,29,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),14,16
+Tharaka,29,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,4,6
+Tharaka,29,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Tharaka,30,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,12
+Tharaka,30,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,6
+Tharaka,30,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,16
+Tharaka,30,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,8
+Tharaka,30,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,6,10
+Tharaka,31,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2.5,20
+Tharaka,31,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Tharaka,31,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),13,26
+Tharaka,31,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,4
+Tharaka,31,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,3
+Tharaka,32,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,16
+Tharaka,32,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,4.5,18
+Tharaka,32,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2.5,14
+Tharaka,32,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,5,19
+Tharaka,32,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,15
+Tharaka,33,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,10
+Tharaka,33,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,0.5,1.5
+Tharaka,33,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,5
+Tharaka,33,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Tharaka,33,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,10
+Tharaka,34,RA farmer,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,8
+Tharaka,34,RA farmer,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Tharaka,34,RA farmer,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),6,10
+Tharaka,34,RA farmer,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,7
+Tharaka,34,RA farmer,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,10
+Tharaka,35,RA farmer,Green Grams,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,8,8.5
+Tharaka,35,RA farmer,Green Grams,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,6
+Tharaka,35,RA farmer,Green Grams,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),5,12
+Tharaka,35,RA farmer,Green Grams,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,6
+Tharaka,35,RA farmer,Green Grams,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,7,10
+Tharaka,36,RA farmer,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,60,13
+Tharaka,36,RA farmer,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,5,9
+Tharaka,36,RA farmer,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),30,15
+Tharaka,36,RA farmer,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,20,30
+Tharaka,37,RA farmer,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,10,20
+Tharaka,37,RA farmer,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,10
+Tharaka,37,RA farmer,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Tharaka,37,RA farmer,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),3,6
+Tharaka,37,RA farmer,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,2
+Tharaka,37,RA farmer,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,6,10
+Tharaka,38,VBA ,Sorghum,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,12
+Tharaka,38,VBA ,Sorghum,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Tharaka,38,VBA ,Sorghum,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),3,8
+Tharaka,38,VBA ,Sorghum,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,4
+Tharaka,38,VBA ,Sorghum,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,6,14
+Tharaka,39,VBA ,Sorghum,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,8,13
+Tharaka,39,VBA ,Sorghum,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,4,6
+Tharaka,39,VBA ,Sorghum,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),7,8
+Tharaka,39,VBA ,Sorghum,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,4
+Tharaka,39,VBA ,Sorghum,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Tharaka,40,VBA ,Sorghum,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,8,10
+Tharaka,40,VBA ,Sorghum,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,6,8
+Tharaka,40,VBA ,Sorghum,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,14
+Tharaka,40,VBA ,Sorghum,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,6,7
+Tharaka,40,VBA ,Sorghum,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,8,10
+Tharaka,41,RA farmer,Green Grams,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,8
+Tharaka,41,RA farmer,Green Grams,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Tharaka,41,RA farmer,Green Grams,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),3,6
+Tharaka,41,RA farmer,Green Grams,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,3
+Tharaka,41,RA farmer,Green Grams,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Tharaka,42,VBA,Sorghum,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,8
+Tharaka,42,VBA,Sorghum,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,3,6
+Tharaka,42,VBA,Sorghum,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,4
+Tharaka,42,VBA,Sorghum,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,2
+Tharaka,42,VBA,Sorghum,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,3
+Tharaka,43,RA farmer,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,6
+Tharaka,43,RA farmer,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,3
+Tharaka,43,RA farmer,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,2
+Tharaka,43,RA farmer,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,50,1
+Tharaka,43,RA farmer,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Tharaka,44,RA farmer,Green Grams,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,50,12
+Tharaka,44,RA farmer,Green Grams,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,10
+Tharaka,44,RA farmer,Green Grams,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),20,40
+Tharaka,44,RA farmer,Green Grams,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,30,5
+Tharaka,44,RA farmer,Green Grams,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,10,30
+Tharaka,45,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,20,40
+Tharaka,45,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Tharaka,45,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),9,18
+Tharaka,45,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,21,37
+Tharaka,46,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,10,15
+Tharaka,46,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,50,80
+Tharaka,46,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,15,40
+Tharaka,46,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),30,35
+Tharaka,46,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,10,20
+Tharaka,47,VBA,Sorghum,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,35,70
+Tharaka,47,VBA,Sorghum,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,26,36
+Tharaka,47,VBA,Sorghum,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Tharaka,47,VBA,Sorghum,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),20,25
+Tharaka,47,VBA,Sorghum,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,5
+Tharaka,47,VBA,Sorghum,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,10,20
+Tharaka,48,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,20,30
+Tharaka,49,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,8,10
+Tharaka,49,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),15,20
+Tharaka,49,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,6,8
+Tharaka,49,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,6
+Tharaka,50,VBA,Sorghum ,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,12,20
+Tharaka,50,VBA,Sorghum ,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,8,14
+Tharaka,50,VBA,Sorghum ,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),18,24
+Tharaka,50,VBA,Sorghum ,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,4,10
+Tharaka,50,VBA,Sorghum ,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,10,18
+Tharaka,51,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,10,30
+Tharaka,51,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Tharaka,51,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),30,40
+Tharaka,51,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,4,3
+Tharaka,51,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,9,15
+Tharaka,52,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,12,24
+Tharaka,52,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,6,10
+Tharaka,52,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),24,40
+Tharaka,52,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,6,12
+Tharaka,52,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,6
+Makueni,53,VBA,N/A,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,15,50
+Makueni,53,VBA,N/A,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,3,8
+Makueni,53,VBA,N/A,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),25,55
+Makueni,53,VBA,N/A,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,10,15
+Makueni,53,VBA,N/A,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,20,40
+Makueni,54,VBA,N/A,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,14,18
+Makueni,54,VBA,N/A,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Makueni,54,VBA,N/A,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),7,14
+Makueni,54,VBA,N/A,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,6
+Makueni,54,VBA,N/A,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,10
+Makueni,55,VBA,N/A,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,24,50
+Makueni,55,VBA,N/A,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,6,10
+Makueni,55,VBA,N/A,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),16,40
+Makueni,55,VBA,N/A,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,5,8
+Makueni,55,VBA,N/A,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,8
+Makueni,56,VBA,N/A,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,10,20
+Makueni,56,VBA,N/A,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Makueni,56,VBA,N/A,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),8,16
+Makueni,56,VBA,N/A,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,6
+Makueni,56,VBA,N/A,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,7,14
+Makueni,57,VBA,N/A,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,16,50
+Makueni,57,VBA,N/A,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,4,8
+Makueni,57,VBA,N/A,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),8,30
+Makueni,57,VBA,N/A,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,5
+Makueni,57,VBA,N/A,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,12,18
+Makueni,58,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,6
+Makueni,58,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,11,1
+Makueni,58,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,3
+Makueni,58,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0,0
+Makueni,58,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,4
+Makueni,59,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,6
+Makueni,59,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Makueni,59,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,3
+Makueni,59,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Makueni,59,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Makueni,60,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,4
+Makueni,60,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,1
+Makueni,60,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),70kg,1
+Makueni,60,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,4
+Makueni,60,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,1
+Makueni,61,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,3
+Makueni,61,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,8,16
+Makueni,61,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),6,10
+Makueni,61,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,2
+Makueni,61,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,1
+Makueni,62,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,1,2
+Makueni,62,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Makueni,62,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,2.5
+Makueni,62,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0,1
+Makueni,62,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2,3
+Makueni,63,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,7
+Makueni,63,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1.5,3
+Makueni,63,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,4
+Makueni,63,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,25,50
+Makueni,63,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,2
+Makueni,64,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,8
+Makueni,64,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Makueni,64,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,3
+Makueni,64,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Makueni,64,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,2.5,3
+Makueni,65,RA farmer,Pigeon Peas,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,4
+Makueni,65,RA farmer,Pigeon Peas,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Makueni,65,RA farmer,Pigeon Peas,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),1,4
+Makueni,65,RA farmer,Pigeon Peas,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,4
+Makueni,65,RA farmer,Pigeon Peas,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,3
+Makueni,66,RA farmer,Beans ,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,7
+Makueni,66,RA farmer,Beans ,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Makueni,66,RA farmer,Beans ,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,5
+Makueni,66,RA farmer,Beans ,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,5
+Makueni,66,RA farmer,Beans ,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,6
+Makueni,67,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,1,3
+Makueni,67,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,3
+Makueni,67,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,4
+Makueni,67,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,2
+Makueni,67,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,3
+Embu,68,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,6
+Embu,68,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Embu,68,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),7,10
+Embu,68,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Embu,68,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,7
+Embu,69,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,16
+Embu,69,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,7,20
+Embu,69,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),12,25
+Embu,69,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,5
+Embu,69,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,7
+Embu,70,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,6
+Embu,70,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Embu,70,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,8
+Embu,70,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,2
+Embu,70,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Embu,71,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,30,40
+Embu,71,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,8,16
+Embu,71,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),7,10
+Embu,71,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,10,15
+Embu,71,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,5,7
+Embu,72,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,10
+Embu,72,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,45kgs,1.5
+Embu,72,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2,5
+Embu,72,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Embu,72,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,10
+Embu,73,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,16
+Embu,73,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,4.5,18
+Embu,73,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),2.5,14
+Embu,73,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,5,19
+Embu,73,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,15
+Embu,74,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2.5,20
+Embu,74,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,2
+Embu,74,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),13,5
+Embu,74,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,4
+Embu,74,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,3
+Embu,75,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,12
+Embu,75,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,6
+Embu,75,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,16
+Embu,75,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,8
+Embu,75,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,6,10
+Embu,76,RA farmer,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,10
+Embu,76,RA farmer,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,40,50
+Embu,76,RA farmer,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),14,16
+Embu,76,RA farmer,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,4,6
+Embu,76,RA farmer,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Embu,77,RA farmer,Beans,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,6
+Embu,77,RA farmer,Beans,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,3,5
+Embu,77,RA farmer,Beans,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,6
+Embu,77,RA farmer,Beans,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,3
+Embu,77,RA farmer,Beans,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Embu,78,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,5,20
+Embu,78,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Embu,78,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),5,10
+Embu,78,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Embu,78,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,6,10
+Embu,79,RA farmer,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,5
+Embu,79,RA farmer,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,Less than 1 bag,1
+Embu,79,RA farmer,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,8
+Embu,79,RA farmer,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,1.5
+Embu,79,RA farmer,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,1,2
+Embu,80,RA farmer,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,8,18
+Embu,80,RA farmer,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Embu,80,RA farmer,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,8
+Embu,80,RA farmer,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Embu,80,RA farmer,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,6
+Embu,81,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,14,30
+Embu,81,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Embu,81,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,35
+Embu,81,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,5
+Embu,81,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,15,35
+Embu,82,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,4,10
+Embu,82,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,4,8
+Embu,82,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),5,10
+Embu,82,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,5
+Embu,82,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,4
+Embu,83,VBA,Maize,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,3,8
+Embu,83,VBA,Maize,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,4
+Embu,83,VBA,Maize,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,15
+Embu,83,VBA,Maize,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,4
+Embu,83,VBA,Maize,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,3,5
+Embu,84,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,15,30
+Embu,84,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,3
+Embu,84,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),10,20
+Embu,84,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,3,5
+Embu,84,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,8,10
+Embu,85,VBA,Maize,M,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,21,85
+Embu,85,VBA,Maize,M,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,7,20
+Embu,85,VBA,Maize,M,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),12,40
+Embu,85,VBA,Maize,M,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,2,8
+Embu,85,VBA,Maize,M,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,7,25
+Embu,86,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,8
+Embu,86,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,1.5
+Embu,86,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),6,10
+Embu,86,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Embu,86,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,6
+Embu,87,VBA,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,2,8
+Embu,87,VBA,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,1,1.5
+Embu,87,VBA,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),6,10
+Embu,87,VBA,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,0.5,1
+Embu,87,VBA,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,4,6
+Embu,88,RA farmer,Beans,F,SCENARIO A,8,2,Average (≈500–600 mm),Medium,Strong,Ripping,Manure application (5 t/ac),Microdosing fertilizer,6,20
+Embu,88,RA farmer,Beans,F,SCENARIO B,8,2,Drought (≈300 mm),Poor,Average,Mulching,,,2,5
+Embu,88,RA farmer,Beans,F,SCENARIO C,6,1,Good (≈700 mm),Good,Average,Intercropping,Mulching,Manure application (5 t/ac),4,10
+Embu,88,RA farmer,Beans,F,SCENARIO D,10,1,Average (≈500–600 mm),Poor,Weak,Planting basins,,,1,3
+Embu,88,RA farmer,Beans,F,SCENARIO E,8,2,Average (≈500–600 mm),Medium,Strong,Agroforestry (trees on farm),Crop rotation,,8,18
