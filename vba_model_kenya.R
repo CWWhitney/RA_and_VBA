@@ -7,7 +7,6 @@ source("functions/chance_event.R") # For risk events
 source("functions/discount.R")  # For NPV calculations
 source("functions/make_variables.R")  # For testing model steps
 
-
 # ---- 1. READ INPUT ESTIMATES ----
 inputs <- estimate_read_csv("data/inputs_vba_kenya.csv")
 make_variables(decisionSupport::estimate_read_csv(paste("data/inputs_vba_kenya.csv",sep="")))
@@ -20,6 +19,13 @@ vba_causal_effect <- function() {
   
   n_years <- 25
   
+  # # Sample from posterior distributions
+  # baseline_adoption <- sample(posterior_samples$baseline_adoption, 1)
+  # vba_effectiveness <- sample(posterior_samples$vba_effectiveness, 1)
+  # yield_impact_ra <- sample(posterior_samples$yield_impact_ra, 1)
+  # 
+  # Then run the original model with these updated values
+  
   # --- CONTROL GROUP (no VBA) ---
   adoption_control <- vv(baseline_adoption, 
                          var_CV = 0.1, 
@@ -30,10 +36,30 @@ vba_causal_effect <- function() {
                       n = n_years) * 
     (1 + yield_impact_ra * adoption_control)
   
+  # CALIBRATE WITH FIELD DATA
+  field_calibrated_baseline <- field_adoption_without_vba / 100
+  vba_boost <- (field_adoption_with_vba - field_adoption_without_vba) / 100
+  
+  # Use our existing model but with calibrated baseline
+  adoption_control <- vv(field_calibrated_baseline, 
+                         var_CV = 0.1, n = n_years, relative_trend = 0.005)
+  
+  adoption_treatment <- vv(field_calibrated_baseline + (vba_density * vba_effectiveness * vba_boost),
+                           var_CV = 0.08, n = n_years, relative_trend = 0.02)
+  
+  # Continue with our existing calculations...
+  adoption_treatment <- pmin(adoption_treatment, 0.85)
+  
+  # Update costs with field data
+  ra_adoption_cost_calibrated <- labor_cost + input_cost
+  
   # Control group costs: only RA adoption costs (no VBA program costs)
   control_costs <- vv(ra_adoption_cost * adoption_control, 
                       var_CV = 0.15, 
                       n = n_years)
+  # overwrite with new field data
+  control_costs <- vv(ra_adoption_cost_calibrated * adoption_control, 
+                      var_CV = 0.15, n = n_years)
   
   control_revenue <- yield_control * maize_price
   control_net_benefit <- control_revenue - control_costs
@@ -65,6 +91,11 @@ vba_causal_effect <- function() {
                                  n = n_years)
   
   treatment_costs <- vba_program_costs + treatment_adoption_costs
+  # Overwrite with field data
+  treatment_costs <- vba_program_costs + 
+    vv(ra_adoption_cost_calibrated * adoption_treatment, 
+       var_CV = 0.15, n = n_years)
+  
   treatment_revenue <- yield_treatment * maize_price
   treatment_net_benefit <- treatment_revenue - treatment_costs
   
@@ -95,11 +126,11 @@ vba_causal_effect <- function() {
   
   # --- RETURN RESULTS ---
   return(list(
-    # NPV Results for your R Markdown
+    # NPV Results for our R Markdown
     NPV_Comparative = npv_comparative,
     ROI = roi,
     
-    # Adoption Results for your R Markdown
+    # Adoption Results for our R Markdown
     Final_Adoption_Baseline = adoption_control[25] * 100,
     Final_Adoption_VBA = adoption_treatment[25] * 100,
     Yield_Increase = mean(yield_effect),
