@@ -8,7 +8,7 @@ source("functions/discount.R")  # For NPV calculations
 source("functions/make_variables.R")  # For testing model steps
 
 # READ INPUT ESTIMATES ----
-inputs <- estimate_read_csv("data/updated_inputs_vba_kenya.csv")
+
 make_variables(decisionSupport::estimate_read_csv(paste("data/inputs_vba_kenya.csv",sep="")))
 
 # VBA_Causal_Model.R
