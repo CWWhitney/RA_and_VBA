@@ -27,7 +27,6 @@ library(tidyverse)
 
 We model a decision impact pathway of  RA VBA  (Whitney et al. 2025). Testing it with field data gathered in Kenya in 2025.
 
-
 ![](figures/dag.jpg)
 
 **Conceptual model of RA VBA**
@@ -45,57 +44,27 @@ fgd_practice_scenarios$`Highest Yield in bags/ac` <- as.numeric(fgd_practice_sce
 fgd_ra_adoption_estimates <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
 fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)` <- as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`)
 fgd_prob_of_trial <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
-# 
-# # Update baseline_adoption from fgd_ra_adoption_estimates (Adoption WITHOUT VBA)
-# data$lower[data$variable == "baseline_adoption"] <- round(quantile(as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`), 0.1, na.rm = TRUE)/100, 2)
-# data$upper[data$variable == "baseline_adoption"] <- round(quantile(as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`), 0.9, na.rm = TRUE)/100, 2)
-# 
-# # Update vba_effectiveness from fgd_ra_adoption_estimates (difference between with/without VBA)
-# vba_effect <- (fgd_ra_adoption_estimates$`Adoption WITH VBA Support (%)` - as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`))/100
-# data$lower[data$variable == "vba_effectiveness"] <- round(quantile(vba_effect, 0.1, na.rm = TRUE), 2)
-# data$upper[data$variable == "vba_effectiveness"] <- round(quantile(vba_effect, 0.9, na.rm = TRUE), 2)
-# 
-# # Update base_yield from fgd_practice_scenarios
-# data$lower[data$variable == "base_yield"] <- round(quantile(as.numeric(fgd_practice_scenarios$`Baseline (bags/ac)`), 0.1, na.rm = TRUE) * 0.025, 1)
-# data$upper[data$variable == "base_yield"] <- round(quantile(as.numeric(fgd_practice_scenarios$`Baseline (bags/ac)`), 0.9, na.rm = TRUE) * 0.025, 1)
-# 
-# # Update ra_adoption_cost from fgd_economic_return_data (labor + inputs)
-# total_cost <- fgd_economic_return_data$`Total  Labour Cost (KSh)` + fgd_economic_return_data$`Total  Inputs Cost (KSh)`
-# data$lower[data$variable == "ra_adoption_cost"] <- round(quantile(total_cost, 0.1, na.rm = TRUE), 0)
-# data$upper[data$variable == "ra_adoption_cost"] <- round(quantile(total_cost, 0.9, na.rm = TRUE), 0)
-# 
-# # Update yield_impact_ra from fgd_practice_scenarios (yield improvement)
-# yield_improvement <- (as.numeric(fgd_practice_scenarios$`Highest Yield in bags/ac`) - as.numeric(fgd_practice_scenarios$`Baseline (bags/ac)`)) / as.numeric(fgd_practice_scenarios$`Baseline (bags/ac)`)
-# data$lower[data$variable == "yield_impact_ra"] <- round(quantile(yield_improvement, 0.1, na.rm = TRUE), 2)
-# data$upper[data$variable == "yield_impact_ra"] <- round(quantile(yield_improvement, 0.9, na.rm = TRUE), 2)
-# 
-# write.csv(data, "data/updated_inputs_vba_kenya.csv", row.names = FALSE)
-
-# Run above and then
-# Perform manual adjustment - no negative values for t_norm and posnorm
 
 ```
 
 ## Data from the field
 
-FGDs were conducted, one in each of in 4 counties (Kitui, Makueni, Embu, Tharaka Nithi). Each FGD was held with 20 individuals.
-
-There were also interviews held to collect in-depth data.
+FGDs were conducted, one in each of in 4 counties (Kitui, Makueni, Embu, Tharaka Nithi). Each FGD was held with 20 individuals. 
 
 ```{r participants_data, include=FALSE}
 participants_data <- read.csv("data/field_data/participants_interviews.csv")
 ```
 
-A total of `r length(participants_data$participant_code)` people were interviewed. 
+There were also interviews held to collect in-depth data. A total of `r length(participants_data$participant_code)` people were interviewed. 
 
-Counts of interviews held by expert group in each county.
+**Counts of interviews held by expert group in each county**
 
 ```{r participants_groups}
 knitr::kable(participants_data %>% group_by(County,Category) %>%
   tally())
 ```
 
-Counts of interviews held with men and women in each county. 
+**Counts of interviews held with men and women in each county**
 
 ```{r participants_gender}
 knitr::kable(participants_data %>% group_by(County,Gender) %>%
@@ -104,7 +73,7 @@ knitr::kable(participants_data %>% group_by(County,Gender) %>%
 
 ### Probability of trial FGDs
 
-This was a more social and behavioral-focused discussion, trying to model the decision-making process of a farmer. It involved rating and discussing different hypothetical farmer profiles. The aim was to understand the key factors that influence a farmer's decision to try a new RA practice for the first time.
+This was a social and behavioral-focused discussion, trying to model the decision-making process of a farmer. It involved rating and discussing different hypothetical farmer profiles. The aim was to understand the key factors that influence a farmer's decision to try a new RA practice for the first time.
 
 ```{r, results='asis'}
 knitr::kable(summary(fgd_prob_of_trial[c(5,6,8)]))
@@ -173,7 +142,7 @@ fgd_practice_scenarios_clean <- fgd_practice_scenarios %>%
 # Summarize scenario definitions and results
 scenario_summary <- fgd_practice_scenarios_clean %>%
   group_by(`Scenario Name`, Weather, Soil, Management, `Practice 1`, `Practice 2`, `Practice 3`) %>%
-  summarise(
+  summarize(
     Count = n(),
     Avg_Baseline = mean(`Baseline (bags/ac)`, na.rm = TRUE),
     Avg_Lowest_Yield = mean(`Lowest Yield in bags/ac`, na.rm = TRUE),
@@ -239,7 +208,7 @@ knitr::kable(table(fgd_economic_return_data$`RA Practice / Activity`))
 ```{r}
 fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)` <- as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`)
 field_stats <- fgd_ra_adoption_estimates %>% 
-  summarise(
+  summarize(
     avg_adoption_vba = mean(`Adoption WITH VBA Support (%)`, na.rm = TRUE),
     avg_adoption_no_vba = mean(`Adoption WITHOUT VBA (%)`, na.rm = TRUE),
     vba_impact = avg_adoption_vba - avg_adoption_no_vba,
@@ -248,19 +217,26 @@ field_stats <- fgd_ra_adoption_estimates %>%
   )
 ```
 
-VBA Impact: `r round(field_stats$vba_impact, 1)` % points
-Average Difficulty `r round(field_stats$avg_difficulty, 1)` /5
-Time to Benefit `r round(field_stats$avg_benefit_months, 1)` months
+VBA impact was `r round(field_stats$vba_impact, 1)` % points, the average difficulty `r round(field_stats$avg_difficulty, 1)` /5. The average time to Benefit was `r round(field_stats$avg_benefit_months, 1)` months. 
 
-## Adoption Patterns of Regenerative Agriculture Practices
+# Simulating the Impact of Village-Based Advisors on Regenerative Agriculture
 
-![Adoption rates of key regenerative agriculture practices with and without VBA support. Error bars represent standard error of the mean.](figures/plot1_adoption_rates.png)
+We developed a probabilistic Monte Carlo simulation model to estimate the causal effect and economic value of a Village-Based Advisor (VBA) program on the adoption of Regenerative Agriculture (RA) practices among smallholder farmers in Kenya over a 25-year horizon. We combined a theory-based causal structure with a probabilistic framework to quantify not only the expected value of the VBA program but also the confidence in and risks associated with that outcome.
 
-![Distribution of practice adoption intensity, showing the number of regenerative practices adopted per farmer with and without VBA support.](figures/plot2_adoption_intensity.png)
+Our model structure is based on a pre-defined Directed Acyclic Graph (DAG) (shown above) that outlines the impact pathway. The core logic follows this causal chain: *Intervention:* The VBA program increases the density and training quality of advisors. *Adoption:* These advisors, moderated by initial farmer trust, increase the adoption rate of RA practices. *Biophysical Outcome:* Higher adoption leads to improved maize yields, which are also influenced by stochastic environmental factors like rainfall variability and drought. *Economic Outcome:* The change in yield, combined with maize prices and the costs of both the program and practice adoption, determines the final net economic benefit.
 
-![Relationship between the number of regenerative practices adopted and maize yield in tons per hectare, with linear trend line. Modelled yield response to practice adoption, showing predicted yields with 95% confidence intervals based on linear regression.](figures/plot4_modelled_effect.png)
+To account for uncertainty, we defined all key input parameters as probability distributions (e.g., `normal`, `uniform`, `posnorm`). These distributions were specified in an input CSV file, capturing the range of plausible values for each variable based on literature, expert opinion, and field data. Our model performs a Monte Carlo simulation, running thousands of iterations. In each iteration, a value for every input is randomly sampled from its respective distribution, ensuring that the full range of uncertainty is propagated through the model.
 
-# Simulation of  RA VBA:
+The model calculates outcomes for two scenarios simultaneously: *Control Scenario:* Simulates a future where RA adoption continues from a field-calibrated baseline at a slow, organic growth trend, without any VBA program. *Treatment Scenario:* Simulates a future with the VBA program, where adoption is boosted by a factor derived from field data (`vba_boost`), which is itself a function of VBA density, effectiveness, training quality, and farmer trust.
+
+We made key variables like adoption rates and yields time-variant using the `decisionSupport` `vv()` function, which introduces random annual fluctuations around a defined trend (e.g., a 0.5% annual increase in baseline adoption).
+
+We modeled the impact of drought as a stochastic event using the chance_event() function, assigning an annual probability of occurrence and a corresponding negative yield impact.
+
+For both scenarios, annual cash flows were calculated as:
+`Annual Net Benefit = (Yield × Maize Price) - (RA Adoption Costs) - (VBA Program Costs)` The VBA program costs were only applied in the treatment scenario. The comparative annual net benefit was derived by subtracting the control net benefit from the treatment net benefit. These annual streams of comparative net benefits were then discounted to their Net Present Value (NPV) using a social discount rate. The Return on Investment (ROI) was calculated as the NPV of the comparative benefits divided by the NPV of the VBA program costs.
+
+The primary model outputs are distributions for the Comparative NPV and ROI. From these distributions, we report the mean or median expected value, but more importantly, we calculate the Probability of Positive NPV—the proportion of simulation iterations that resulted in a net positive return. This provides a robust measure of the investment risk. Additional outputs on adoption and yield effects provide validation for the model's causal pathway.
 
 ```{r mcsimulation, warning=FALSE, message=FALSE}
 # Source our model
@@ -280,7 +256,22 @@ simulation_results <- mcSimulation(
 
 ```
 
-The Net Present Value (i.e. current value of the future benefits) of the garden decision options. Here we plot the distribution for the VBA and frame the projected NPV. 
+```{r, results = "asis"}
+knitr::kable(summary(simulation_results$y[c(2,4,10)]))
+```
+
+
+```{r}
+plot_distributions(mcSimulation_object = simulation_results, 
+                                    vars = "NPV_Comparative",
+                   old_names = "NPV_Comparative",
+                   new_names = "Gains compared to the baseline",
+                                    method = 'boxplot_density', 
+                                    base_size = 7, 
+                                    x_axis_name = "Comparative NPV outcomes")
+```
+
+The Net Present Value (i.e. current value of the future benefits) of the VBA options. Here we plot the distribution for the VBA and frame the projected NPV. 
 
 ```{r plot_dist_public, warning=FALSE, message=FALSE}
 source("functions/plot_distributions.R")
@@ -288,7 +279,7 @@ plot_distributions(mcSimulation_object = simulation_results,
                                     vars = "NPV_Comparative",
                    old_names = "NPV_Comparative",
                    new_names = "Gains compared to the baseline",
-                                    method = 'smooth_simple_overlay', 
+                                    method = 'boxplot_density', 
                                     base_size = 7, 
                                     x_axis_name = "Comparative NPV outcomes")
 ```

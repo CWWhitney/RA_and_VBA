@@ -2,20 +2,29 @@ library(tidyverse)
 library(readr)
 library(magrittr)
 
+# # field data
+# work in all the data we collected (as much as possible)
+fgd_economic_return_data <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod5.csv")
+fgd_practice_scenarios <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod4.csv")
+
+fgd_practice_scenarios$`Lowest Yield in bags/ac` <- as.numeric(fgd_practice_scenarios$`Lowest Yield in bags/ac`)
+fgd_practice_scenarios$`Highest Yield in bags/ac` <- as.numeric(fgd_practice_scenarios$`Highest Yield in bags/ac`)
+
+fgd_ra_adoption_estimates <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
+fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)` <- as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`)
+fgd_prob_of_trial <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
+# 
+
 # Load field data
 # work in all the data we collected (as much as possible)
-data_5 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod5.csv")
-data_4 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod4.csv")
-data_3 <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
-data_2 <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
 
 # Create real_data step by step with compatible variable names
 
 # Adoption data (replaces manure, crop_rotation, etc.)
-adoption_data <- data_3 %>%
+adoption_data <- fgd_ra_adoption_estimates %>%
   select(`Farmer No.`, `RA Practice`, `Adoption WITH VBA Support (%)`) %>%
   mutate(
-    # Count only practices where adoption is > 50% (or choose  our threshold)
+    # Count only practices where adoption is > 50%
     adopted_practice = `Adoption WITH VBA Support (%)` > 50
   ) %>%
   group_by(`Farmer No.`) %>%
@@ -31,8 +40,8 @@ adoption_data <- data_3 %>%
 # table(adoption_data$number_of_practices)
 
 # Practice-specific adoption with compatible names
-data_3$`Adoption WITHOUT VBA (%)` <- as.numeric(data_3$`Adoption WITHOUT VBA (%)`)
-practice_adoption <- data_3 %>%
+fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)` <- as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`)
+practice_adoption <- fgd_ra_adoption_estimates %>%
   select(`Farmer No.`, `RA Practice`, `Adoption WITH VBA Support (%)`) %>%
   mutate(
     adopted = `Adoption WITH VBA Support (%)` > 50  # Binary adoption (adopted if >50%)
@@ -63,7 +72,7 @@ practice_adoption <- practice_adoption %>%
   )
    
    # Yield data (convert to tons/hectare equivalent)
-   yield_data <- data_4 %>%
+   yield_data <- fgd_practice_scenarios %>%
  mutate(across(c(`Lowest Yield in bags/ac`, `Highest Yield in bags/ac`), as.numeric)) %>%
  group_by(`Farmer No.`) %>%
  summarise(
@@ -74,7 +83,7 @@ practice_adoption <- practice_adoption %>%
  )
  
  # Farmer characteristics (create group variable)
- farmer_chars <- data_2 %>%
+ farmer_chars <- fgd_prob_of_trial %>%
    select(`Farmer No.`, `VBA Contact Frequency`, `Peer Adoption Rate`, 
           `Probability of Trial (%)`) %>%
    distinct(`Farmer No.`, .keep_all = TRUE) %>%
@@ -84,7 +93,7 @@ practice_adoption <- practice_adoption %>%
    )
  
  # Cost data for practice effects
- cost_data <- data_5 %>%
+ cost_data <- fgd_economic_return_data %>%
    group_by(`Farmer No.`, `RA Practice / Activity`) %>%
    summarise(
      avg_total_cost = mean(`Total  Labour Cost (KSh)` + `Total  Inputs Cost (KSh)`, na.rm = TRUE),
@@ -92,7 +101,7 @@ practice_adoption <- practice_adoption %>%
    )
  
  # Calculate average practice effect from cost-benefit
- practice_effect_data <- data_5 %>%
+ practice_effect_data <- fgd_economic_return_data %>%
    group_by(`Farmer No.`) %>%
    summarise(
      # Simple practice effect based on net benefits
@@ -149,7 +158,8 @@ practice_adoption <- practice_adoption %>%
  # Adoption Rates for Key Practices
  plot1_data <-  field_data %>%
    select(group, manure, crop_rotation, intercropping, mulching) %>%
-   pivot_longer(cols = -group, names_to = "practice", values_to = "adopted") %>%
+   pivot_longer(cols = -group, names_to = "practice", 
+                values_to = "adopted") %>%
    group_by(group, practice) %>%
    summarise(
      mean_adoption = mean(adopted, na.rm = TRUE),
@@ -234,6 +244,6 @@ practice_adoption <- practice_adoption %>%
  # save
  ggsave("figures/plot1_adoption_rates.png", plot1, width = 8, height = 6, dpi = 300)
  ggsave("figures/plot2_adoption_intensity.png", plot2, width = 8, height = 6, dpi = 300)
- ggsave("figures/plot4_yield_relationship.png", plot3, width = 8, height = 6, dpi = 300)
+ ggsave("figures/plot4_yield_relationship.png", plot4, width = 8, height = 6, dpi = 300)
  
  
