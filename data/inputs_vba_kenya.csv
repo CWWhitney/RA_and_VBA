@@ -4,9 +4,9 @@ vba_training_quality,0.6,0.95,tnorm_0_1,Quality of VBA training (score 0-1)
 farmer_trust_start,0.4,0.8,tnorm_0_1,Initial farmer trust in advice (score 0-1)
 baseline_adoption,0.35,0.45,tnorm_0_1,Baseline RA adoption (no VBA) - CONTROL
 vba_effectiveness,0.15,0.5,tnorm_0_1,VBA effectiveness multiplier
-yield_impact_ra,0.1,0.4,posnorm,Yield gain from full RA adoption (tons/ha)
+yield_impact_ra,0.3,0.8,posnorm,Yield gain from full RA adoption (tons/ha)
 yield_variability,0.1,0.3,posnorm,Annual yield variability (SD in tons/ha)
-base_yield,1.2,2.1,posnorm,Base yield (tons/ha) - conventional practice
+base_yield,1.5,2.5,posnorm,Base yield (tons/ha) - conventional practice
 vba_program_cost,300,800,posnorm,Annual VBA program cost per farmer (KES)
 ra_adoption_cost,800,2000,posnorm,One-time RA adoption cost per farmer (KES)
 maize_price,18000,22000,posnorm,Maize price (KES/tonne)
