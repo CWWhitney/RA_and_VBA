@@ -43,6 +43,7 @@ fgd_practice_scenarios$`Highest Yield in bags/ac` <- as.numeric(fgd_practice_sce
 
 fgd_ra_adoption_estimates <- read_csv("data/field_data/RA_Elicitation_FGDs_datamod3.csv")
 fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)` <- as.numeric(fgd_ra_adoption_estimates$`Adoption WITHOUT VBA (%)`)
+
 fgd_prob_of_trial <- read_csv("data/field_data/RA_Elicitation_FGDs_data.csv")
 
 ```
@@ -75,20 +76,24 @@ knitr::kable(participants_data %>% group_by(County,Gender) %>%
 
 This was a social and behavioral-focused discussion, trying to model the decision-making process of a farmer. It involved rating and discussing different hypothetical farmer profiles. The aim was to understand the key factors that influence a farmer's decision to try a new RA practice for the first time.
 
-```{r, results='asis'}
-knitr::kable(summary(fgd_prob_of_trial[c(5,6,8)]))
-```
-
 "How often does a farmer need to be in contact with a VBA for it to make a real difference?" (VBA Contact Frequency: e.g., High, Low).
 
 "How influential is it when a farmer sees their neighbors successfully using a practice? If many peers have adopted, does it make you more likely to try?" (Peer Adoption Rate: e.g., Low, Medium, High).
 
+```{r, results='asis'}
+knitr::kable(fgd_prob_of_trial %>% group_by(`Peer Adoption Rate`) %>% summarize(`Probability of Trial (%)` = mean(`Probability of Trial (%)`, na.rm=TRUE)))
+```
+
 "Does the gender of the farmer influence their willingness to try new things? Let's discuss." (Farmer Gender).
+
+```{r, results='asis'}
+knitr::kable(fgd_prob_of_trial %>% group_by(`Gender of Respondent`) %>% summarize(`Probability of Trial (%)` = mean(`Probability of Trial (%)`, na.rm=TRUE)))
+```
 
 "Considering all these factors together—VBA contact, peer influence, and the farmer's gender—what is the percentage probability (from 0% to 100%) that a farmer in this situation will try the practice?" (Probability of Trial (%)).
 
 ```{r}
-knitr::kable(fgd_prob_of_trial %>% group_by(`VBA Contact Frequency`) %>% summarize(Mean = mean(`Probability of Trial (%)`, na.rm=TRUE)))
+knitr::kable(fgd_prob_of_trial %>% group_by(`VBA Contact Frequency`) %>% summarize(`Probability of Trial (%)` = mean(`Probability of Trial (%)`, na.rm=TRUE)))
 ```
 
 ### RA adoption estimates FGDs
@@ -221,11 +226,11 @@ VBA impact was `r round(field_stats$vba_impact, 1)` % points, the average diffic
 
 # Simulating the Impact of Village-Based Advisors on Regenerative Agriculture
 
-We developed a probabilistic Monte Carlo simulation model to estimate the causal effect and economic value of a Village-Based Advisor (VBA) program on the adoption of Regenerative Agriculture (RA) practices among smallholder farmers in Kenya over a 25-year horizon. We combined a theory-based causal structure with a probabilistic framework to quantify not only the expected value of the VBA program but also the confidence in and risks associated with that outcome.
+We applied the field data to a probabilistic Monte Carlo simulation model to estimate the causal effect and economic value of a Village-Based Advisor (VBA) program on the adoption of Regenerative Agriculture (RA) practices among smallholder farmers in Kenya over a 25-year horizon. We combined a theory-based causal structure with a probabilistic framework to quantify not only the expected value of the VBA program but also the confidence in and risks associated with that outcome. The full model in R can be found here https://github.com/CWWhitney/RA_and_VBA/blob/main/vba_model_kenya.R
 
 Our model structure is based on a pre-defined Directed Acyclic Graph (DAG) (shown above) that outlines the impact pathway. The core logic follows this causal chain: *Intervention:* The VBA program increases the density and training quality of advisors. *Adoption:* These advisors, moderated by initial farmer trust, increase the adoption rate of RA practices. *Biophysical Outcome:* Higher adoption leads to improved maize yields, which are also influenced by stochastic environmental factors like rainfall variability and drought. *Economic Outcome:* The change in yield, combined with maize prices and the costs of both the program and practice adoption, determines the final net economic benefit.
 
-To account for uncertainty, we defined all key input parameters as probability distributions (e.g., `normal`, `uniform`, `posnorm`). These distributions were specified in an input CSV file, capturing the range of plausible values for each variable based on literature, expert opinion, and field data. Our model performs a Monte Carlo simulation, running thousands of iterations. In each iteration, a value for every input is randomly sampled from its respective distribution, ensuring that the full range of uncertainty is propagated through the model.
+To account for uncertainty, we defined all key input parameters as probability distributions (e.g., `normal`, `uniform`, `posnorm`). These distributions were specified in an input CSV file, capturing the range of plausible values for each variable based on literature, expert opinion, and field data. Our model performs a Monte Carlo simulation, running thousands of iterations. In each iteration, a value for every input is randomly sampled from its respective distribution, ensuring that the full range of uncertainty is propagated through the model. All variable estimates can be found here https://github.com/CWWhitney/RA_and_VBA/blame/main/data/inputs_vba_kenya.csv
 
 The model calculates outcomes for two scenarios simultaneously: *Control Scenario:* Simulates a future where RA adoption continues from a field-calibrated baseline at a slow, organic growth trend, without any VBA program. *Treatment Scenario:* Simulates a future with the VBA program, where adoption is boosted by a factor derived from field data (`vba_boost`), which is itself a function of VBA density, effectiveness, training quality, and farmer trust.
 
@@ -258,17 +263,6 @@ simulation_results <- mcSimulation(
 
 ```{r, results = "asis"}
 knitr::kable(summary(simulation_results$y[c(2,4,10)]))
-```
-
-
-```{r}
-plot_distributions(mcSimulation_object = simulation_results, 
-                                    vars = "NPV_Comparative",
-                   old_names = "NPV_Comparative",
-                   new_names = "Gains compared to the baseline",
-                                    method = 'boxplot_density', 
-                                    base_size = 7, 
-                                    x_axis_name = "Comparative NPV outcomes")
 ```
 
 The Net Present Value (i.e. current value of the future benefits) of the VBA options. Here we plot the distribution for the VBA and frame the projected NPV. 
